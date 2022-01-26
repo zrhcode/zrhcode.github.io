@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hexo+Github博客搭建教程</title>
+    <url>/2022/01/24/Hexo-Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</url>
+    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1.前言"></a>1.前言</h2><p>  2022年1月的时候开始独立搭建了自己人生中的第一个博客，从有这个想法到最终搭建成耗时有一个星期左右，从最开始在b站上找视频学，到百度找各种经验贴，再到知乎寻求答案，其中走过了不少弯路，终于功夫不负有心人，到现在我的博客也像模像样的了。我搭建这个博客的目的是想把自己学习的笔记、读书的笔记等等存到云端，相当于一个笔记本的作用，当然了，搭建博客的过程也可以让给我学到很多东西。我想很多小伙伴也想搭建一个属于自己的博客吧，那我就在此稍稍总结一下具体的搭建过程，更多的个性化设置还需要你自己去摸索哦。</p>
+<p>​    最后，这个hexo博客的搭建是基于windows 11系统的，各位小伙伴可以作为参考。</p>
+<span id="more"></span>
+
+<h2 id="2-小知识"><a href="#2-小知识" class="headerlink" title="2.小知识"></a>2.小知识</h2><p>  搭建之前，你需要了解一下我们搭建博客需要用到的框架。</p>
+<p>  什么是Hexo？</p>
+<p>  Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。它是基于Node.js的。</p>
+<p>​    现在来介绍Hexo的命令</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">hexo n <span class="string">&quot;我的博客&quot;</span> == hexo <span class="keyword">new</span> <span class="string">&quot;我的博客&quot;</span> #新建文章</span><br><span class="line">hexo g == hexo generate #生成</span><br><span class="line">hexo s == hexo server #启动服务预览</span><br><span class="line">hexo d == hexo deploy #部署</span><br><span class="line">hexo clean #清楚缓存</span><br></pre></td></tr></table></figure>
+
+<p>​    什么是Node.js?</p>
+<p>​    Node.js发布于2009年5月，由Ryan Dahl开发，是一个基于Chrome V8引擎的JavaScript运行环境，使用了一个事件驱动、非阻塞式I/O模型， 让JavaScript 运行在服务端的开发平台，它让JavaScript成为与PHP、Python、Perl、Ruby等服务端语言平起平坐的脚本语言。</p>
+<p>​    什么是Git?</p>
+<p>​    Git（读音为/gɪt/）是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。 [1] 也是Linus Torvalds为了帮助管理Linux内核开发而开发的一个开放源码的版本控制软件。</p>
+<p>​    什么是GitHub？</p>
+<p>​    GitHub是一个面向开源及私有软件项目的托管平台，因为只支持Git作为唯一的版本库格式进行托管，故名GitHub。</p>
+<h2 id="3-开始搭建"><a href="#3-开始搭建" class="headerlink" title="3.开始搭建"></a>3.开始搭建</h2><p>​    在开始搭建之前，我们需要先安装下列应用：</p>
+<p>​        1.Node.js</p>
+<p>​        2.Git</p>
+<h3 id="3-1安装Node-js"><a href="#3-1安装Node-js" class="headerlink" title="3.1安装Node.js"></a>3.1安装Node.js</h3><p>​    百度搜索Node.js，进入官网下载长期维护版本，这里附上链接[Node.js](<a href="https://nodejs.org/zh-cn/">Node.js (nodejs.org)</a>)</p>
+<p>安装选项全部点默认就行，一路next。最后安装好了之后打开命令提示符</p>
+<p><code>win+R</code>,输入<code>node -v</code>和<code>npm -v</code>如果出现版本号，那么恭喜你，安装成功了！</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/CDN-jsDeliver@1.0/Hexo-Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/image-20220124203355332.png" alt="img"></p>
+<h3 id="3-2注册Github账号"><a href="#3-2注册Github账号" class="headerlink" title="3.2注册Github账号"></a>3.2注册Github账号</h3><p><a href="https://github.com/">GitHub</a>,点此进行注册，注册完成后，右上角点击+号新建一个仓库<code>New repository</code>如下图所示<img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220125214727.png" alt="image-20220125201057391"></p>
+<h3 id="3-3安装Git"><a href="#3-3安装Git" class="headerlink" title="3.3安装Git"></a>3.3安装Git</h3><p>百度搜索git官网下载，这里附上链接<a href="https://git-scm.com/download">Git</a>，安装时还是选择默认，最后一步添加路径时选择<code>Use Git from the Windows Command Prompt</code>，安装完成后在命令提示符输入<code>git --version</code>来看看你是否安装成功！找到你的Git安装路径<code>D:\ProgramFiles\Git</code>打开<code>git-bash.exe</code>，打开git的控制台窗口，以后我们所有的操作都在git控制台进行.</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220125214727.png" alt="image-20220124205135721"></p>
+<p>打开Git Bash，设置user.name和user.email配置信息：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的GitHub用户名&quot;</span><br><span class="line">git config --global user.email &quot;你的GitHub注册邮箱&quot;</span><br></pre></td></tr></table></figure>
+
+<p>生成ssh密钥文件：</p>
+<p><code>ssh-keygen -t rsa -C &quot;你的GitHub注册邮箱&quot;</code>然后一直回车就行了，接着找到.ssh中的id_rsa.pub密钥，我的如图所示</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220125214735.png" alt="image-20220125201549767"></p>
+<p>打开GitHub-Settings-keys，新建new SSH Key,Title为标题，任意填即可，将刚刚复制的id_rsa.pub内容粘贴进去，最后点击Add SSH key。在Git Bash中检测GitHub公钥设置是否成功，输入 <code>ssh git@github.com </code>,这里之所以设置GitHub密钥原因是，通过非对称加密的公钥与私钥来完成加密，公钥放置在GitHub上，私钥放置在自己的电脑里。GitHub要求每次推送代码都是合法用户，所以每次推送都需要输入账号密码验证推送用户是否是合法用户，为了省去每次输入密码的步骤，采用了ssh，当你推送的时候，git就会匹配你的私钥跟GitHub上面的公钥是否是配对的，若是匹配就认为你是合法用户，则允许推送。这样可以保证每次的推送都是正确合法的。</p>
+<h3 id="3-4添加淘宝镜像源"><a href="#3-4添加淘宝镜像源" class="headerlink" title="3.4添加淘宝镜像源"></a>3.4添加淘宝镜像源</h3><p>在终端输入<code>npm install -g cnpm --registry=https://registry.npm.taobao.org</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220125214743.png" alt="image-20220124204234544"></p>
+<p>最后输入<code>cnpm -v</code>来看一下版本，看是否安装成功。</p>
+<h3 id="3-5安装Hexo博客框架"><a href="#3-5安装Hexo博客框架" class="headerlink" title="3.5安装Hexo博客框架"></a>3.5安装Hexo博客框架</h3><p>首先新建一个博客文件夹，用来存放自己的博客文件，我的是这样的<code>D:\ProgramFiles\Blog\zrhcode</code>。在git控制台输入<code>cnpm install -g hexo-cli</code>安装博客框架，接着输入<code>hexo -v</code>检查是否安装成功</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220125214748.png" alt="image-20220124210511079"></p>
+<p>切换到你刚新建的blog目录下,如<code>D:\ProgramFiles\Blog\zrhcode</code>,来生成博客目录，在git控制台输入<code>hexo init</code>初始化文件夹。这样hexo就安装好了。</p>
+<p>打开你新建的blog目录<code>D:\ProgramFiles\Blog\zrhcode</code>，你会发现多了许多文件夹，在blog根目录下有个_config.yml，这个叫站点配置文件,在themes文件夹里<code>D:\ProgramFiles\Blog\zrhcode\themes\landscape</code>下有个文件夹 _config.yml，这个叫主题配置文件。</p>
+<p>下一步将我们的Hexo与GitHub关联起来，打开站点的配置文件_config.yml，翻到最后修改为</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">type: git #注意冒号后空一格</span><br><span class="line">repo: https://github.com/username/username.github.io.git #username改为你自己创建的名字</span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure>
+
+<p>接下来，我们保存站点配置文件，其实就是给hexo d 这个命令做相应的配置，让hexo知道你要把blog部署在哪个位置，很显然，我们部署在我们GitHub的仓库里。<code>cnpm install hexo-deployer-git --save</code>,这时，我们输入以下命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean #清理本地缓存</span><br><span class="line">hexo g #生成本地文件</span><br><span class="line">hexo d #部署到远端，这个由于网速原因，可能会失败，多试几次就好了</span><br></pre></td></tr></table></figure>
+
+<p>然后你就可以访问你个人的博客了，如xxxx.github.io，我的时<code>zrhcode.github.io</code></p>
+<p>接下来，就来启动我们的博客，输入<code>hexo s</code>,然后再浏览器打开<code>http://localhost:4000/</code></p>
+<h3 id="3-6配置主题"><a href="#3-6配置主题" class="headerlink" title="3.6配置主题"></a>3.6配置主题</h3><h4 id="3-6-1更换主题"><a href="#3-6-1更换主题" class="headerlink" title="3.6.1更换主题"></a>3.6.1更换主题</h4><p>landscape是hexo默认的主题，可以更换不同的主题，个人比较推荐的主题有三个：①NexT （排行榜第一，使用的人非常多，很火爆，以简约为主）②yilia（使用的人也很多，左右排版，很好看）③Butterfly（具体没用过，这个受众也挺多的），之所以推荐这些，是因为这些主题比较火爆，所以网上有好多配置教程，你可以百度搜索，配置出自己喜欢的风格。当然了你也可以去hexo-themes下挑选自己喜欢的主题<a href="https://hexo.io/themes/">Themes | Hexo</a></p>
+<p>接下来，说说怎么更换主题（其实，博主并不是在搭建博客上耗费了很多时间，而是在配置主题方面花了大量时间，这才导致用了一个星期[手动狗头]），在Git中先切换到新建的blog目录，然后输入<code>git clone https//github.com/litten/hexo-theme-yilia.git themes/yilia</code>这是将yilia主题下载到blog目录的themes主题下的yilia文件夹中。</p>
+<p>用记事本打开<strong>站点</strong>的_config.yml配置文件，修改主题为yilia</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220125214757.png" alt="image-20220125210301746"></p>
+<p>修改好后保存，再次部署网站</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo clean </span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
+
+<p>到这里我们的博客就搭建完了，剩下具体的主题配置就需要你自己去搞啦。</p>
+<h4 id="3-6-2配置主题"><a href="#3-6-2配置主题" class="headerlink" title="3.6.2配置主题"></a>3.6.2配置主题</h4><p>这里放一些我在配置过程中找到的文章及视频，希望对你有所帮助：</p>
+<p>1.<a href="https://www.bilibili.com/video/BV1pt411K7o9?spm_id_from=333.999.0.0">一步一步教你如何在Windows10上完成hexo博客搭建和yilia主题使用_哔哩哔哩_bilibili</a></p>
+<p>2.<a href="https://joeybling.github.io/">https://joeybling.github.io/</a></p>
+<p>3.<a href="http://dongshuyan.com/2019/05/24/hexo%E5%8D%9A%E5%AE%A2%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/">http://dongshuyan.com/2019/05/24/hexo%E5%8D%9A%E5%AE%A2%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</a></p>
+]]></content>
+      <tags>
+        <tag>Hexo 博客</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客文章</title>
+    <url>/2022/01/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
+    <content><![CDATA[<h1 id="我的博客文章编写"><a href="#我的博客文章编写" class="headerlink" title="我的博客文章编写"></a>我的博客文章编写</h1><h2 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h2><p>使用标题时需要用#号，具体查看Markdown文档编写规则，在想要设置为标题的文字前面加<code>#</code>(#和内容之前需要空一个空格)，markdown一共支持六级标题。</p>
+<span id="more"></span>
+
+<h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><p>段落划分：段落划分非常简单，就是在段落前后保留一个空行即可，例如：</p>
+<p>这是第一个段落内容</p>
+<p>这是第二个段落内容</p>
+<h2 id="区块引用"><a href="#区块引用" class="headerlink" title="区块引用"></a>区块引用</h2><p>如果我们要对一段内容进行强调显示时，Markdown提供了一个特殊符号&gt;(&gt;和内容之前需要空一个空格)用于段落区块引用</p>
+<blockquote>
+<p>这是一段引用段落，将会被高亮显示 </p>
+</blockquote>
+<h2 id="超链接"><a href="#超链接" class="headerlink" title="超链接"></a>超链接</h2><p><a href="https://www.baidu.com/?tn=62095104_19_oem_dg">百度</a></p>
+<p><a href="http://www.baidu.com/" title="超链接title">超链接显示文字</a></p>
+<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><p><img src="C:\Users\Zhangruihua\Pictures\搜狗截图20210707182818.png" alt="风景"></p>
+<p><img src="https://www.baidu.com/img/bd_logo1.png?where=super" alt="百度logo"></p>
+<p>图片和超链接的唯一区别就是在最前方添加一个感叹号</p>
+<h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><p>无序列表使用<code>*</code>、<code>+</code>、<code>-</code>标识，但是一般使用<code>*</code>来标识无序列表</p>
+<p>单级列表从最左开始(适用于无序列表)</p>
+<ul>
+<li><p>无序列表</p>
+</li>
+<li><p>无序列表</p>
+</li>
+<li><p>无序列表</p>
+<p>  Markdown支持多级列表嵌套，但是建议一般不使用超过两级列表，另外建议两级列表从缩进3个空格开始(适用于无序列表)</p>
+<ul>
+<li>无序列表</li>
+<li>无序列表<ul>
+<li>无序列表</li>
+<li>无序列表</li>
+</ul>
+</li>
+</ul>
+<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><p>  有序列表使用<code>数字.</code>标识</p>
+<ol>
+<li>有序列表项1</li>
+<li>有序列表项2</li>
+</ol>
+<h2 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h2><p>  三个***</p>
+<p>  或三个—</p>
+<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>  <em>这里包含斜体内容</em>  （ 在一对星号之间写）</p>
+<p>  <strong>这里包含加粗内容</strong> （在两对星号之间写）</p>
+<h2 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h2><h3 id="行内代码"><a href="#行内代码" class="headerlink" title="行内代码"></a>行内代码</h3><p>  使用单个反引号进行包裹行内代码，例如</p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">vax x = <span class="number">10</span></span><br></pre></td></tr></table></figure>
+
+<p>  <code>123</code></p>
+<p>  反单引号 (backquote)，又称反引号，是西文字符中的附加符号，主要用于计算机相关领域。. 位置在键盘中数字键“1”的左边，其上档符号是“~ ”，使用Shift键可以换挡输入。. 由于计算机显示的原因，反单引号非常容易和单引号 ‘ 混淆。</p>
+<h3 id="多行代码"><a href="#多行代码" class="headerlink" title="多行代码"></a>多行代码</h3><p>  可以通过三个反引号将代码包裹起来，反引号单独占一行，多一行单引号后面可以需要添加编程语言，详细的编程语言见<a href="http://pygments.org/languages/">http://pygments.org/languages/</a></p>
+  <figure class="highlight c"><table><tr><td class="code"><pre><span class="line">package main</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line"></span><br><span class="line"><span class="function">func <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    fmt.Println(<span class="string">&quot;Hello, World&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="表格"><a href="#表格" class="headerlink" title="表格"></a>表格</h2><p>  <img src="C:\Users\Zhangruihua\AppData\Roaming\Typora\typora-user-images\image-20220121191752045.png" alt="image-20220121191752045"></p>
+<table>
+<thead>
+<tr>
+<th>表头</th>
+<th>表头</th>
+<th>表头</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>内容</td>
+<td>内容</td>
+<td>内容</td>
+</tr>
+<tr>
+<td>内容</td>
+<td>内容</td>
+<td>内容</td>
+</tr>
+<tr>
+<td>内容</td>
+<td>内容</td>
+<td>内容</td>
+</tr>
+</tbody></table>
+  <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=424995310&auto=0&height=66"></iframe>
+
+<h2 id="配置文章"><a href="#配置文章" class="headerlink" title="配置文章"></a>配置文章</h2><p>  在需要置顶的文章的Front-matter中加上top选项即可<br>  top后面的数字越大，优先级越高</p>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 2019</span><br><span class="line">date: 2019-02-14 16:10:03</span><br><span class="line">top: 5</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h2 id="优先级配置"><a href="#优先级配置" class="headerlink" title="优先级配置"></a>优先级配置</h2><p>  修改根目录配置文件/_config.yml,top值-1标示根据top值倒序（正序设置为1即可），同样date也是根据创建日期倒序。</p>
+  <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">index_generator:</span><br><span class="line">  path: &#x27;&#x27;</span><br><span class="line">  per_page: 10</span><br><span class="line">  order_by:</span><br><span class="line">    top: -1</span><br><span class="line">    date: -1</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+]]></content>
+      <tags>
+        <tag>关于</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2022/01/22/hello-world/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="312efb03c11367b95a9e4adb64b60b101e73671f914a63356e81a3525a418618">6031008eaf30dfa9f6cee48a6a69006e9993d10648ae86ee372b4d4924a734cf4fc8b1b702b5696b19305e18b181ea7288c901e3773a01190737eb3a438f541ed0342d163c2547a79b700973ad2f55160d4cecb6c5871feb1af899c8a1b9fb4a9b47ca5c8123d0f6433f4791a2156710998b5bc798d9485aac67cf6edb8ab782ac645289b8d5f4ad40a4898ae8d0f43a7c0d882b88c07105d743b095710cd517c64871fad3a3212be8ee935c3282037f7277c25fe37de5274cfab81c0684e38a384c54a058ecfae523f60fa6bed8d1f08d4b00295baf9a65e72177f70cd7408d13b6d8a46bd51555d7b750d93a1e4f0a11d09664b76abea61df35223a7aeb58baba7666265595207963cb61ece2c230e3eecbf1f5e9e9715e634d6b75566277a94b33a6ec738ba9cf631d24a5528e9f98b5b651cbf56efb2f9f70fcd8a58e748b929938f6163b6bd9bbb18973771c1b994a7bccf3487ceaa5ba467f87ed49875d88a2a0eaaac91c5b6f6ef6aace88220ef6c5f05220d0aae2dc7da4748d72c2789dc23207cbf1a31e6709d7096922b696363f23d7f9e32fcded5f5b9ca84f26fa5280c10f249a889c3be55fc9ed409515788d31a7e3f90bd557e7ee120bd3d9639708f06052e8a9f2d3b5cbca0da10a5e499a4abac90c8b9cb6feb0c73628df66b94742fceb56cd4948d88c6e2749bf79fccc6a66b79800989568227d5940e6c2b41b640b99a4e69e9bd00d299af322fd74bc9b15ef57478ec07633653e511050e4ce3f46a977cc94306d552ccf7bf485244ab27fc7951003a7991bc673725e758a93242ce1fda0d111e614d04339af3756e4a0fdeae72f7a7ee18abc051ed57eb00e754bc288eb55b6225aa332d8048033f71e9e48316f444850090592951c732cc1eca7eb98c2d7deccc3d58f63111c488243e6a28dc0c903a3a10ed48365fdec7ed57a0b2d41d4ee9631c7fd5bb6f41fa30a06df97f03e6141b6b01ee614cb1544951dd03ad04c05f383afab034ada661895a4342dd9522995f9dbfc1cae2b3e64833cdc4e0521846c1445f92f8d15bfef8098088a9dd01087e7facb5410c13a1c1dc0b0e82dd14eb37b211002e73974012e7c6872f3b0aa34c99bbe87bbb431bbf068e9b119d3429434dd5820dab5ea0f57021cf4f71814d79bd08c00aa278bee7ee0683bb6d45a956979a8361c3460575f90bad1db2f82db5c08aefc6edfa75c18f4c23abbd0ce6c054c0810df5b4876a444a6b15bfd4bc87e26382ef7b651476922c98cbed5715fc9392f5dd80bd3c26230c95a62efb1a497d5ce3c22238e38cffccf4666c7c480193127a188fd40ab42f9aa0e2759073b16791ef6995e24d4b713eb88f350864ff2b750fc2e10e5d34159df4a4c826277ec0dd6a7089ee5938d436d080d5ceb10c5d133b3adc12f8e3b781b0466de4e2ddf93e9ee12f1f9674c7fc3c15d76e71dbbd3ca347edd158497281cb4b87fe11bd1ed3fca1c5960954efa046f84faec7fa664028a55245d206d373a4f9fd8b064365adc0a3050447ed540ec364ff8a0b4e2a21206403a7634ee197b0fcace0babab0370cc941007adbca8eead7fdb97aed364a300c2a9697c05b8c2b721910232c25f0ab501aef8805570d2c9bc78ce19c0172284ebcec6a5b0e9834283a796a90fe69e4728e1bcb9ecf27aa26a2e32cce1918dccdbb3204e82abe7a6859ff751f2068efcd9f6d020f18e9257b3f810f1176ac39564aea45d24b19bcdd03e40f8c434d87f116d60c153e2a85f9ffc7cd26e6606f8a7249679a767124adf3e312c125b697f970ace8b7538bfd4776c2084cd60ba537c5f982361a42e608d6349cc65eb61fdaa4e364ce01ae8eaa32cb5fc3e1f656f3125f2987d5dcb6e377d0b3149b3f23f8f13e244fd6c222aa3c926c5431bd77219c9ed1784d76e11832a47ae0668e3d56a9418891e5213a512fe2662600a8e81f48c7ace758c5206ab5970bfb8ad620b2082d34c276e6be3bf4adba89e41f137e3482eec798cc45bf33a7dcb386007651cbfd595e3f52a61d6a3ed65f9e8beebbd139dc776f079d5d5ec5aba8502b5d09533fe0533b1e6227816663da0618b746da4e028c529d7a6fb081a0cdf9271dba42c80df1c5121c8c4a55580d567051b455fc31f16bc646ca5e1329eca25b391e7368da4b0faf73abacb2b9b8a043ae5471e2c86905eb4bd34cbb4579171c0896fc41caa607f6195a0687e26d698c5a450f2da835b1c529ead09b14e38831c526a0bc117d27cb8bb70967b316b0b3dc762f102a16dca0c21c59bca05431135783911a7b8f2d72285a6ac76eed475fbfc11f7f58b58f3cfc616f7794a715dc6413b70570df9ea632c7510618d7b0de2df45f545269e4dfdee7412cd27a1f6bd377b6e4361fb02f14710c8a6f45157915deb5e2d572227ff388b1b348b2c798eeaa8fb089f6912847407744bfb5d0ac8bdb6d3810e27f891865dae225a6a49fd03aabca619a7bec4c9f57de0d9826371183e7f3ad18746b0a0b45901d1f801c95fcc5e09acd4947220abde32df372ab9ffd84df65ac2c0e8555cd35ec6e45da7d078c01701cad622c95d8b23951536af681b5adadd4a38c3bb2b183b18b7f5f7a00a7e7e708f6a2c16c816273ff362942703cac01e3b702cac8b0ea74ed2d2e835c77886ddaa4bb1cf667bf84633582ec7ec6f26e54492c8b15ee5322bb74a53ae8696e7680948439b8eea8c4910d5f637e8c3bec55256987e04851e8d5ce6ce57d3602ebde058a16161f308c42ef89adcf176dfb5c7e378ab67a09d76aae09f264ed38f10638f9f5633c0dd722cc687b7053f00ffb9317438cb229e6ed72218d37219f2a9f87aad425f9c59a7d1b85a497d9847446d492bbd207a4dd1bd0a74c84c23900c7c77d325c74daa16dd446cbb7d9f68449bc8f2dbfe57e312a9fbca4f742f3ceb1369f683f2f449419e20deddfbce8f867922b110778c10831c879c37eca71b630e4e4511e17306f7233fea3328be804523e2ee3c927f6adca681a9d26c25a85e9f9af175b5487fb718293446c68ee9580a13185687e83187622556b3dc32370039b8f6fba878e872eabd775d8229350b42ccdf1bc739b9b26863308cefd168b5b4a5a7bda26a8fba21fbe19d431f8dc6c87643cd442c93e8b73451af8159ad2ba276b6c29418e2ab7e211d8653ae7044752512e8e7c5f057755cd73abda9f7ba14f4695e9861b3bcd5ab9f4ad7c4d9b4fa9a67fbc953a409b22583da61482b8e1e4b8efe0842bb63c4eb6b35dc76097eff15b55ceb25e49eefdcedafc245f7bc4e2df86f56b27b5f0f869bad88d</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Welcome to my blog,enter password to read.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <tags>
+        <tag>随笔 博客</tag>
+      </tags>
+  </entry>
+</search>
