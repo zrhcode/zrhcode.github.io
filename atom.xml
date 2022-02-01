@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>我的世界</title>
   
-  <subtitle>Blog</subtitle>
+  <subtitle>记录生活的点点滴滴</subtitle>
   <link href="https://zrhcode.github.io/atom.xml" rel="self"/>
   
   <link href="https://zrhcode.github.io/"/>
-  <updated>2022-01-25T13:48:17.818Z</updated>
+  <updated>2022-01-31T13:34:45.172Z</updated>
   <id>https://zrhcode.github.io/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Java学习笔记</title>
+    <link href="https://zrhcode.github.io/2022/01/26/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>https://zrhcode.github.io/2022/01/26/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
+    <published>2022-01-26T11:54:12.000Z</published>
+    <updated>2022-01-31T13:34:45.172Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;第一章-Java语言概述&quot;&gt;&lt;a href=&quot;#第一章-Java语言概述&quot; class=&quot;headerlink&quot; title=&quot;第一章 Java语言概述&quot;&gt;&lt;/a&gt;第一章 Java语言概述&lt;/h1&gt;&lt;h2 id=&quot;1-1-Java的起源与发展&quot;&gt;&lt;a href=&quot;#1-1-Java的起源与发展&quot; class=&quot;headerlink&quot; title=&quot;1.1 Java的起源与发展&quot;&gt;&lt;/a&gt;1.1 Java的起源与发展&lt;/h2&gt;&lt;p&gt;  Java语言最初是由美国sun microsystems公司的James Gosling等人开发的一种面向对象的程序设计语言。java语言的前身是oak（橡树）。&lt;/p&gt;
+&lt;p&gt;  Java语言于1995年5月23日正式发布。Java语言具有面向对象，平台独立，安全性以及可以开发一种称为Applet程序的特点，该语言的发布立即引起巨大轰动。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术干货" scheme="https://zrhcode.github.io/categories/%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7/"/>
+    
+    
+    <category term="Java" scheme="https://zrhcode.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo+Github博客搭建教程</title>
     <link href="https://zrhcode.github.io/2022/01/24/Hexo-Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
     <id>https://zrhcode.github.io/2022/01/24/Hexo-Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</id>
     <published>2022-01-24T11:01:33.000Z</published>
-    <updated>2022-01-25T13:48:17.818Z</updated>
+    <updated>2022-02-01T08:15:26.424Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1.前言&quot;&gt;&lt;/a&gt;1.前言&lt;/h2&gt;&lt;p&gt;  2022年1月的时候开始独立搭建了自己人生中的第一个博客，从有这个想法到最终搭建成耗时有一个星期左右，从最开始在b站上找视频学，到百度找各种经验贴，再到知乎寻求答案，其中走过了不少弯路，终于功夫不负有心人，到现在我的博客也像模像样的了。我搭建这个博客的目的是想把自己学习的笔记、读书的笔记等等存到云端，相当于一个笔记本的作用，当然了，搭建博客的过程也可以让给我学到很多东西。我想很多小伙伴也想搭建一个属于自己的博客吧，那我就在此稍稍总结一下具体的搭建过程，更多的个性化设置还需要你自己去摸索哦。&lt;/p&gt;
@@ -29,25 +49,12 @@
     
     
     
-    
-    <category term="Hexo 博客" scheme="https://zrhcode.github.io/tags/Hexo-%E5%8D%9A%E5%AE%A2/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://zrhcode.github.io/2022/01/22/hello-world/"/>
-    <id>https://zrhcode.github.io/2022/01/22/hello-world/</id>
-    <published>2022-01-21T23:30:00.000Z</published>
-    <updated>2022-01-24T11:03:42.809Z</updated>
+    <category term="技术干货" scheme="https://zrhcode.github.io/categories/%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7/"/>
     
     
-    <summary type="html">Welcome to my blog,enter password to read.</summary>
+    <category term="Hexo" scheme="https://zrhcode.github.io/tags/Hexo/"/>
     
-    
-    
-    
-    <category term="随笔 博客" scheme="https://zrhcode.github.io/tags/%E9%9A%8F%E7%AC%94-%E5%8D%9A%E5%AE%A2/"/>
+    <category term="博客搭建" scheme="https://zrhcode.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
     
   </entry>
   
@@ -56,15 +63,17 @@
     <link href="https://zrhcode.github.io/2022/01/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/"/>
     <id>https://zrhcode.github.io/2022/01/21/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</id>
     <published>2022-01-21T10:43:07.000Z</published>
-    <updated>2022-01-22T11:53:50.276Z</updated>
+    <updated>2022-01-31T13:34:24.022Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;我的博客文章编写&quot;&gt;&lt;a href=&quot;#我的博客文章编写&quot; class=&quot;headerlink&quot; title=&quot;我的博客文章编写&quot;&gt;&lt;/a&gt;我的博客文章编写&lt;/h1&gt;&lt;h2 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h2&gt;&lt;p&gt;使用标题时需要用#号，具体查看Markdown文档编写规则，在想要设置为标题的文字前面加&lt;code&gt;#&lt;/code&gt;(#和内容之前需要空一个空格)，markdown一共支持六级标题。&lt;/p&gt;</summary>
+    <summary type="html">Welcome to my blog,enter password to read.</summary>
     
     
     
+    <category term="技术干货" scheme="https://zrhcode.github.io/categories/%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7/"/>
     
-    <category term="关于" scheme="https://zrhcode.github.io/tags/%E5%85%B3%E4%BA%8E/"/>
+    
+    <category term="博客 Markdown" scheme="https://zrhcode.github.io/tags/%E5%8D%9A%E5%AE%A2-Markdown/"/>
     
   </entry>
   
