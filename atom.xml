@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>我的世界</title>
+  <title>新世界</title>
   
   <subtitle>记录生活的点点滴滴</subtitle>
   <link href="https://zrhcode.github.io/atom.xml" rel="self"/>
   
   <link href="https://zrhcode.github.io/"/>
-  <updated>2022-01-31T13:34:45.172Z</updated>
+  <updated>2022-02-02T08:34:59.580Z</updated>
   <id>https://zrhcode.github.io/</id>
   
   <author>
@@ -21,11 +21,10 @@
     <link href="https://zrhcode.github.io/2022/01/26/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>https://zrhcode.github.io/2022/01/26/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
     <published>2022-01-26T11:54:12.000Z</published>
-    <updated>2022-01-31T13:34:45.172Z</updated>
+    <updated>2022-02-02T08:34:59.580Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;第一章-Java语言概述&quot;&gt;&lt;a href=&quot;#第一章-Java语言概述&quot; class=&quot;headerlink&quot; title=&quot;第一章 Java语言概述&quot;&gt;&lt;/a&gt;第一章 Java语言概述&lt;/h1&gt;&lt;h2 id=&quot;1-1-Java的起源与发展&quot;&gt;&lt;a href=&quot;#1-1-Java的起源与发展&quot; class=&quot;headerlink&quot; title=&quot;1.1 Java的起源与发展&quot;&gt;&lt;/a&gt;1.1 Java的起源与发展&lt;/h2&gt;&lt;p&gt;  Java语言最初是由美国sun microsystems公司的James Gosling等人开发的一种面向对象的程序设计语言。java语言的前身是oak（橡树）。&lt;/p&gt;
-&lt;p&gt;  Java语言于1995年5月23日正式发布。Java语言具有面向对象，平台独立，安全性以及可以开发一种称为Applet程序的特点，该语言的发布立即引起巨大轰动。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;第一章-Java语言概述&quot;&gt;&lt;a href=&quot;#第一章-Java语言概述&quot; class=&quot;headerlink&quot; title=&quot;第一章 Java语言概述&quot;&gt;&lt;/a&gt;第一章 Java语言概述&lt;/h1&gt;&lt;h2 id=&quot;第一章知识点总览&quot;&gt;&lt;a href=&quot;#第一章知识点总览&quot; class=&quot;headerlink&quot; title=&quot;第一章知识点总览&quot;&gt;&lt;/a&gt;第一章知识点总览&lt;/h2&gt;</summary>
     
     
     
@@ -41,11 +40,10 @@
     <link href="https://zrhcode.github.io/2022/01/24/Hexo-Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/"/>
     <id>https://zrhcode.github.io/2022/01/24/Hexo-Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</id>
     <published>2022-01-24T11:01:33.000Z</published>
-    <updated>2022-02-01T08:15:26.424Z</updated>
+    <updated>2022-02-01T11:51:34.576Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1.前言&quot;&gt;&lt;/a&gt;1.前言&lt;/h2&gt;&lt;p&gt;  2022年1月的时候开始独立搭建了自己人生中的第一个博客，从有这个想法到最终搭建成耗时有一个星期左右，从最开始在b站上找视频学，到百度找各种经验贴，再到知乎寻求答案，其中走过了不少弯路，终于功夫不负有心人，到现在我的博客也像模像样的了。我搭建这个博客的目的是想把自己学习的笔记、读书的笔记等等存到云端，相当于一个笔记本的作用，当然了，搭建博客的过程也可以让给我学到很多东西。我想很多小伙伴也想搭建一个属于自己的博客吧，那我就在此稍稍总结一下具体的搭建过程，更多的个性化设置还需要你自己去摸索哦。&lt;/p&gt;
-&lt;p&gt;​    最后，这个hexo博客的搭建是基于windows 11系统的，各位小伙伴可以作为参考。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-前言&quot;&gt;&lt;a href=&quot;#1-前言&quot; class=&quot;headerlink&quot; title=&quot;1.前言&quot;&gt;&lt;/a&gt;1.前言&lt;/h2&gt;&lt;p&gt;  2022年1月的时候开始独立搭建了自己人生中的第一个博客，从有这个想法到最终搭建成耗时有一个星期左右，从最开始在b站上找视频学，到百度找各种经验贴，再到知乎寻求答案，其中走过了不少弯路，终于功夫不负有心人，到现在我的博客也像模像样的了。&lt;/p&gt;</summary>
     
     
     
