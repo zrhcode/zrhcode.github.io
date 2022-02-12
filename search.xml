@@ -25,10 +25,9 @@
   <entry>
     <title>Hexo+Github博客搭建教程</title>
     <url>/2022/01/24/Hexo-Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</url>
-    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1.前言"></a>1.前言</h2><p>  2022年1月的时候开始独立搭建了自己人生中的第一个博客，从有这个想法到最终搭建成耗时有一个星期左右，从最开始在b站上找视频学，到百度找各种经验贴，再到知乎寻求答案，其中走过了不少弯路，终于功夫不负有心人，到现在我的博客也像模像样的了。</p>
+    <content><![CDATA[<h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1.前言"></a>1.前言</h2><p>  搭建这个博客的目的是想把自己学习的笔记、读书的笔记等等存到云端，相当于一个笔记本的作用，当然了，搭建博客的过程也可以让给我学到很多东西。我想很多小伙伴也想搭建一个属于自己的博客吧，那我就在此稍稍总结一下具体的搭建过程，更多的个性化设置还需要你自己去摸索。</p>
 <span id="more"></span>
 
-<p>  我搭建这个博客的目的是想把自己学习的笔记、读书的笔记等等存到云端，相当于一个笔记本的作用，当然了，搭建博客的过程也可以让给我学到很多东西。我想很多小伙伴也想搭建一个属于自己的博客吧，那我就在此稍稍总结一下具体的搭建过程，更多的个性化设置还需要你自己去摸索哦。</p>
 <p>​    最后，这个hexo博客的搭建是基于windows 11系统的，各位小伙伴可以作为参考。</p>
 <h2 id="2-小知识"><a href="#2-小知识" class="headerlink" title="2.小知识"></a>2.小知识</h2><p>  搭建之前，你需要了解一下我们搭建博客需要用到的框架。</p>
 <p>  什么是Hexo？</p>
@@ -81,7 +80,7 @@
 <p>修改好后保存，再次部署网站</p>
 <figure class="highlight ebnf"><table><tr><td class="code"><pre><span class="line"><span class="attribute">hexo clean </span></span><br><span class="line"><span class="attribute">hexo g</span></span><br><span class="line"><span class="attribute">hexo s</span></span><br><span class="line"><span class="attribute">hexo d</span></span><br></pre></td></tr></table></figure>
 
-<p>到这里我们的博客就搭建完了，剩下具体的主题配置就需要你自己去搞啦。</p>
+<p>到这里我们的博客就搭建完了，剩下具体的主题配置就需要你自己去搞了。</p>
 <h4 id="3-6-2配置主题"><a href="#3-6-2配置主题" class="headerlink" title="3.6.2配置主题"></a>3.6.2配置主题</h4><p>这里放一些我在配置过程中找到的文章及视频，希望对你有所帮助：</p>
 <p>1.<a href="https://www.bilibili.com/video/BV1pt411K7o9?spm_id_from=333.999.0.0">一步一步教你如何在Windows10上完成hexo博客搭建和yilia主题使用_哔哩哔哩_bilibili</a></p>
 <p>2.<a href="https://joeybling.github.io/">https://joeybling.github.io/</a></p>
