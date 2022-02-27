@@ -1,28 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>2022年度规划</title>
-    <url>/2022/02/14/2022%E5%B9%B4%E5%BA%A6%E6%B8%85%E5%8D%95/</url>
-    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>生活没有目标，犹如航海没有罗盘，走到哪里算哪里，最终也是一事无成，有计划的完成，其实再远的方向也能到达。看过那么多达人的计划，决定制定下自己的计划清单。很喜欢出自非洲经济学家Dambisa Moyo的《dead aid》中的一句话：种一棵树最好的时间是十年前，其次是现在。“十年前，你是初生牛犊，一片赤子之心，一身冲劲，未来无限可能。如果那个时候小心翼翼的种下了一棵树，十年后树木挺拔，仿佛你旅途中的一个标志，已经成为疲惫旅人的你就可以时时回到树木生长的地方待上那么一会儿。唤回初心，驱散迷茫。可很多事十年之前懵懂不知其中之味，于是我们大多忘记给自己种下一棵树。十年后经历人世的无常，才懂那是宝藏。所以，种一棵树，最好的时间在十年前。”<span id="more"></span></p>
-<blockquote>
-<p><strong>Living without an aim is like sailing without a compass. 生活没有目标，犹如航海没有罗盘</strong></p>
-</blockquote>
-<h2 id="January"><a href="#January" class="headerlink" title="January"></a>January</h2><p>1.创建博客</p>
-<p>2.学习Java基础语法知识</p>
-<p>3.联系英语口语</p>
-<h2 id="February"><a href="#February" class="headerlink" title="February"></a>February</h2><p>1.准备考研复试</p>
-<p>2.看完黄灯的《我的二本学生》</p>
-]]></content>
-      <categories>
-        <category>年度清单</category>
-      </categories>
-      <tags>
-        <tag>年度规划</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo+Github博客搭建教程</title>
-    <url>/2022/01/24/Hexo-Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/</url>
+    <url>/2022/01/24/Hexo+Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B%EF%BC%88%E5%B7%B2%E5%AE%8C%E6%88%90%EF%BC%89/</url>
     <content><![CDATA[<h2 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h2><p>  搭建这个博客的目的是想把自己学习的笔记、读书的笔记等等存到云端，相当于一个笔记本的作用，当然了，搭建博客的过程也可以让给我学到很多东西。我想很多小伙伴也想搭建一个属于自己的博客吧，那我就在此稍稍总结一下具体的搭建过程，更多的个性化设置还需要你自己去摸索。</p>
 <span id="more"></span>
 
@@ -31,7 +11,7 @@
 <p>  什么是Hexo？</p>
 <p>  Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 <a href="http://daringfireball.net/projects/markdown/">Markdown</a>（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。它是基于Node.js的。</p>
 <p>​    现在来介绍Hexo的命令</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">hexo n <span class="string">&quot;我的博客&quot;</span> == hexo <span class="keyword">new</span> <span class="string">&quot;我的博客&quot;</span> #新建文章</span><br><span class="line">hexo g == hexo generate #生成</span><br><span class="line">hexo s == hexo server #启动服务预览</span><br><span class="line">hexo d == hexo deploy #部署</span><br><span class="line">hexo clean #清楚缓存</span><br></pre></td></tr></table></figure>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line">hexo n <span class="string">&quot;我的博客&quot;</span> == hexo <span class="keyword">new</span> <span class="string">&quot;我的博客&quot;</span> #新建文章</span><br><span class="line">hexo g == hexo generate #生成</span><br><span class="line">hexo s == hexo server #启动服务预览</span><br><span class="line">hexo d == hexo deploy #部署</span><br><span class="line">hexo clean #清除缓存</span><br></pre></td></tr></table></figure>
 
 <p>​    什么是Node.js?</p>
 <p>​    Node.js发布于2009年5月，由Ryan Dahl开发，是一个基于Chrome V8引擎的JavaScript运行环境，使用了一个事件驱动、非阻塞式I/O模型， 让JavaScript 运行在服务端的开发平台，它让JavaScript成为与PHP、Python、Perl、Ruby等服务端语言平起平坐的脚本语言。</p>
@@ -93,149 +73,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Java学习笔记</title>
-    <url>/2022/01/26/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>Java是一门卓越的程序设计语言，同时，它也是基于Java语言、从移动应用开发到企业及开发的平台。随着Web的发展，应用Web成为大型应用开发的主流方式，Java凭借其“编写一次，到处运行”的良好特性很好的支持了互联网应用所要求的跨平台能力，成为服务器端开发的主流语言。现在人类已经进入互联网时代，而Java依然是当之无愧的主角。<span id="more"></span></p>
-<p>Java是一门经典的面向对象语言，同时也是一门优秀的教学语言。Java拥有优雅和简明的语法以及丰富的类库，让编程人员尽可能地将精力集中在业务领域的问题求解上。</p>
-<h1 id="第一章-Java语言概述"><a href="#第一章-Java语言概述" class="headerlink" title="第一章 Java语言概述"></a>第一章 Java语言概述</h1><h2 id="第一章知识点总览"><a href="#第一章知识点总览" class="headerlink" title="第一章知识点总览"></a>第一章知识点总览</h2><!--more-->
-
-<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220128211928.png" alt="Java第一章"></p>
-<h2 id="1-1-Java的起源与发展"><a href="#1-1-Java的起源与发展" class="headerlink" title="1.1 Java的起源与发展"></a>1.1 Java的起源与发展</h2><p>​    Java语言是目前十分流行的面向对象程序设计语言。它具有简单些、跨平台性、安全性、分布性等优点。Java语言不但确立了在网络编程和面向对象编程中的主导地位，而且在移动设备和企业应用开发中也有广泛应用。</p>
-<p>​    Java语言最初是由美国Sun Microsystems公司的James Gosling等人开发的一种面向对象的程序设计语言。Java的起源可以追溯到20世纪90年代初，Sun公司提出了一个Green项目，主要开发用于消费类电子产品的嵌入式芯片而设计的软件。Java之父James Gosling最初打算使用C++开发系统，但后来发现C++不能胜任这个工作，于是决定开发一种新的语言。他参考了SmallTalk和C++语言，设计了一个新的语言，该语言被称为Oak（橡树），这就是Java的前身。</p>
-<p>​    1993年7月，Sun公司决定把Oak作为产品推出，因此必须注册商标，结果Oak没能通过商标测试，公司必须为该语言取一个新的名字，于是将该语言取名为Java。</p>
-<p>​    Java语言于1995年5月23日正式发布。Java语言具有面向对象，平台独立、安全性以及可以开发一种称为Applet程序的特点，该语言的发布立即引起巨大轰动。</p>
-<h3 id="1-1-1Java语言的发展历程"><a href="#1-1-1Java语言的发展历程" class="headerlink" title="1.1.1Java语言的发展历程"></a>1.1.1Java语言的发展历程</h3><p>​    Java语言具有强大生命力，其原因之一是不断推出新版本。多年来，Java语言不断发展，演化和修订，一直站在计算机程序设计语言的前沿。从诞生以来，它已经做过多次或大或小的升级。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220202150310.png" alt="java发展历程"></p>
-<h3 id="1-1-2Java语言流行程度"><a href="#1-1-2Java语言流行程度" class="headerlink" title="1.1.2Java语言流行程度"></a>1.1.2Java语言流行程度</h3><p>​    TIOBE最新世界编程语言排行榜中前十种语言：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220201185752.png"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220201190002.png" alt="image-20220201190001834"></p>
-<h3 id="1-1-3Java语言的优点"><a href="#1-1-3Java语言的优点" class="headerlink" title="1.1.3Java语言的优点"></a>1.1.3Java语言的优点</h3><p>​    在java诞生时，世界上已经有上千种不同的编程语言，java语言之所以能存在和发展，并具有生命力，是因为它有着其它语言不同的优点。java是简单的（simple）、面向对象的（object oriented）、分布式的（distributed）、解释性的（interpred）、健壮的（robust）、安全的（secure）、体系结构中立的（architecture neutral）、可移植的（portable）、高性能的（high performance）、多线程的（miltithreaded）和动态的（dynamic）。</p>
-<h2 id="1-2Java平台与开发环境"><a href="#1-2Java平台与开发环境" class="headerlink" title="1.2Java平台与开发环境"></a>1.2Java平台与开发环境</h2><h3 id="1-2-1Java平台"><a href="#1-2-1Java平台" class="headerlink" title="1.2.1Java平台"></a>1.2.1Java平台</h3><p>​    Java标准版（Java Standard Edition，Java SE） ：用来开发客户端的应用程序，应用程序可以独立运行或作为Applet在Web浏览器中运行。</p>
-<p>​    Java企业版（Java Enterprise Edition，Java EE）：用来开发服务器端 的应用程序。例如：Java Servlet和JSP（JavaServer Pages），以及JSF（JavaServer Faces）。</p>
-<p>Java微型版（Java Micro Edition，Java ME）：用来开发移动设备（如手机）上运行的应用程序。</p>
-<h3 id="1-2-2JDK、JRE和JVM"><a href="#1-2-2JDK、JRE和JVM" class="headerlink" title="1.2.2JDK、JRE和JVM"></a>1.2.2JDK、JRE和JVM</h3><p>​    JDK（Java Development Kit，Java开发工具包）： 包含JRE以及开发工具，面向开发人员使用。（PS：开发用的）</p>
-<p>​    JRE（Java Runtime Environment，Java运行时环境）：包含JVM以及运行类库，面向运行人员使用。（PS：运行用的）</p>
-<p>​    JVM（Java Virtual Machine，Java虚拟机）：包含字节码等核心内容。（PS：核心所在）</p>
-<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220201192312.png" alt="image-20220201192312055"></p>
-<h3 id="1-2-3资源下载"><a href="#1-2-3资源下载" class="headerlink" title="1.2.3资源下载"></a>1.2.3资源下载</h3><ul>
-<li>JDK的下载地址：<a href="http://www.oracle.com/technetwork/javase/downloads/index.html">http://www.oracle.com/technetwork/javase/downloads/index.html</a> </li>
-<li>Eclipse开发工具下载地址：<a href="http://www.eclipse.org/downloads/eclipse-packages/">http://www.eclipse.org/downloads/eclipse-packages/</a></li>
-<li>NetBeans开发工具下载地址：<a href="http://netbeans.org/downloads/">http://netbeans.org/downloads/</a></li>
-<li>Notepad++下载地址: <a href="https://notepad-plus-plus.org/">https://notepad-plus-plus.org/</a></li>
-</ul>
-<h2 id="1-3Java程序基本结构"><a href="#1-3Java程序基本结构" class="headerlink" title="1.3Java程序基本结构"></a>1.3Java程序基本结构</h2><h3 id="1-3-1Java程序开发步骤"><a href="#1-3-1Java程序开发步骤" class="headerlink" title="1.3.1Java程序开发步骤"></a>1.3.1Java程序开发步骤</h3><p>​    开发Java程序通常分三步：编辑源程序；编译源程序；执行或调试程序，得到程序输出的结果。</p>
-<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220202161422.png" alt="image-20220202161422753"></p>
-<center>java程序的编辑、编译和执行过程</center>
-
-<h3 id="1-3-2第一个程序"><a href="#1-3-2第一个程序" class="headerlink" title="1.3.2第一个程序"></a>1.3.2第一个程序</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="string">&quot;Hello, World!&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h4 id="1-3-2-1第一个程序分析"><a href="#1-3-2-1第一个程序分析" class="headerlink" title="1.3.2.1第一个程序分析"></a>1.3.2.1第一个程序分析</h4><p>1.类定义</p>
-<p>​    Java程序的任何代码都必须放到一个类的定义中，本程序定义一个名为HelloWorld的类。public为类的访问修饰符，class为关键字，其后用一对大括号括起来，称为类体。</p>
-<p>2.main()方法</p>
-<p>​    Java应用程序的标志是类体中定义的一个main（）方法，称为主方法。主方法是程序执行的入口点，类似于C语言的main（）函数。main（）方法的格式如下：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">			……	</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>​    public是方法的访问修饰符，static说明该方法为静态方法，void说明该方法的返回值为空。main（）方法必须带一个字符串数组参数String[] args，可以通过命令行向程序中传递参数。方法的定义也要括在一对大括号中，大阔号内可以书写合法的java语句。</p>
-<p>3.输出语句</p>
-<p>​    本程序main（）方法中只有一行语句：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.println(<span class="string">&quot;Hello,World!&quot;</span>);</span><br></pre></td></tr></table></figure>
-
-<p>​    该语句的功能是在标准的输出设备上打印输出一个字符串，字符串字面值用双引号定界。java语言的语句要以分号结束。</p>
-<p>System为系统类。out为该类中定义的静态成员，是标准的输出设备，通常指显示器。println（）是输出流out张总定义的方法，功能是打印输出字符串并换行。若不带参数，仅起到换行的作用。另一个常用的方法值print（），该方法输出后不换行。</p>
-<p>4.源程序命名</p>
-<p>​    在java语言中，一个源程序文件被称为一个编译单元。它是包含一个或多个类定义的文本文件。java编译器要求源程序文件必须以java为扩展名。当编译单元中有public类时，主文件必须与public类的类名相同（包括大小写），如本例的源程序文件名应该是HelloWorld.java若编译单元中没有public类，源程序的主文件名可以任意。</p>
-<h2 id="1-4程序文档风格和注释"><a href="#1-4程序文档风格和注释" class="headerlink" title="1.4程序文档风格和注释"></a>1.4程序文档风格和注释</h2><h3 id="1-4-1一致的缩进和空白"><a href="#1-4-1一致的缩进和空白" class="headerlink" title="1.4.1一致的缩进和空白"></a>1.4.1一致的缩进和空白</h3><p>​    保持一致的缩进和空白会是程序更加清晰、易读、易于调试和维护。缩进用于描述程序中各部分或语句之间的结构关系。java规范建议的缩进为4个字符。二元操作符的两边也应该各加一个空格，如下面语句所示：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.println(<span class="number">3</span>+<span class="number">4</span>*<span class="number">5</span>);  <span class="comment">//不好的风格</span></span><br><span class="line">System.out.println(<span class="number">3</span> + <span class="number">4</span> * <span class="number">5</span>);  <span class="comment">//好的风格</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="1-4-2块的风格"><a href="#1-4-2块的风格" class="headerlink" title="1.4.2块的风格"></a>1.4.2块的风格</h3><p>​    代码块是由大括号围起来的一组语句块，如类体、方法体、初始化块等。代码块的大括号有两种写法，一是行末格式，即左大括号写在上一行的末尾，右大括号写在下一行，另一种格式称为次行格式，即将左大括号单独写在下一行，右大括号与左大括号垂直对齐，如图所示</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span>		//次行格式</span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		System.out.println(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;		<span class="comment">//行末格式</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>​    这两种格式没有好坏之分，但java的文档规范推荐使用行末格式，这样使代码更紧凑，且占据较少空间。</p>
-<h3 id="1-4-3Java程序注释"><a href="#1-4-3Java程序注释" class="headerlink" title="1.4.3Java程序注释"></a>1.4.3Java程序注释</h3><p>​    java源程序支持三种类型注释：</p>
-<p>（1）单行注释，以双斜杠开头，在该行的末尾结束</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//这是一个单行注释，在Eclipse中快捷键ctrl+/(添加注释)</span></span><br></pre></td></tr></table></figure>
-
-<p>（2）多行注释，以<code>/*</code>开始，以<code>*/</code>结束的一行或多行文字</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	这是一个多行注释，在Eclipse中快捷键为ctrl+shift+\(添加注释),ctrl+shift+/(取消注释)</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
-
-<p>（3）文档注释，以<code>/**</code>开始，以<code>*/</code>结束的多行。文档注释是java特有的，主要用来生成类定义的API文档                                                                                       </p>
-<h1 id="第二章Java语言基础"><a href="#第二章Java语言基础" class="headerlink" title="第二章Java语言基础"></a>第二章Java语言基础</h1><h2 id="第二章知识点总览"><a href="#第二章知识点总览" class="headerlink" title="第二章知识点总览"></a>第二章知识点总览</h2><p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220202161326.png" alt="第二章知识点概览"></p>
-<h3 id="2-1简单程序的开发"><a href="#2-1简单程序的开发" class="headerlink" title="2.1简单程序的开发"></a>2.1简单程序的开发</h3><h4 id="2-1-1-从键盘读取数据"><a href="#2-1-1-从键盘读取数据" class="headerlink" title="2.1.1 从键盘读取数据"></a>2.1.1 从键盘读取数据</h4><p>​    要从键盘读取数据可以使用Scanner类的nextInt（）方法或nextDouble方法。首先创建Scanner类的一个实例，然后调用nextDouble（）方法读取double数据。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//ComputeArea.java</span></span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;<span class="comment">//由于Scanner类存放在Java.util包中，因此程序使用import语句导入该类</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ComputeArea</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">double</span> radius;</span><br><span class="line">        <span class="keyword">double</span> area;</span><br><span class="line">        Scanner input = <span class="keyword">new</span> Scanner(System.in);<span class="comment">//创建一个Scanner实例input</span></span><br><span class="line">        System.out.print(<span class="string">&quot;请输入半径值：&quot;</span>);</span><br><span class="line">        radius = input.nextDouble(); <span class="comment">//通过input实例读取一个double型数</span></span><br><span class="line">        area = Math.PI * radius * radius;</span><br><span class="line">        System.out.println(<span class="string">&quot;圆的面积为：&quot;</span> + area);   </span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//程序运行结果如下：</span></span><br><span class="line">请输入半径值：<span class="number">10</span></span><br><span class="line">圆的面积为：<span class="number">314.1592653589793</span></span><br></pre></td></tr></table></figure>
-
-<p>​    使用Scanner类对象还可以从键盘上读取其他数据类型的数据，如nextInt（）读取一个整数，nextLine（）读取一行文本。</p>
-<h4 id="2-1-2变量与赋值"><a href="#2-1-2变量与赋值" class="headerlink" title="2.1.2变量与赋值"></a>2.1.2变量与赋值</h4><p>​    变量（variable）是在程序运行中气质可以改变的量。一个变量通常由三个要素组成，即数据类型、变量名和变量值。Java有两种类型的变量：基本类型的变量和引用类型的变量。基本类型的变量包括数值型（整数型和浮点型）、布尔型和字符型。引用类型的变量包括类、接口、枚举和数组等。</p>
-<p>​    变量在使用使用之前必须定义，变量定义包括声明和赋值。变量声明的一般格式为：</p>
-<center>type varName[=value][,valueName[=value]...];</center>
-
-<p>​    其中，type为变量数据类型，varName为变量名，value为变量值。下面声明了几个不同类型的变量：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> age;</span><br><span class="line"><span class="keyword">double</span> d1,d2;</span><br><span class="line"><span class="keyword">char</span> ch1,ch2;</span><br></pre></td></tr></table></figure>
-
-<p>​    使用赋值运算符“=”给变量赋值，一般称为变量的初始化。下面是几个赋值语句：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">age = <span class="number">21</span>;</span><br><span class="line">ch1 = <span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">d1 = d2 = <span class="number">0.618</span>;  <span class="comment">//可以一次给多个变量赋值</span></span><br></pre></td></tr></table></figure>
-
-<p>​    也可以在声明时给变量赋值。例如：</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">boolean</span> = <span class="keyword">false</span>;</span><br></pre></td></tr></table></figure>
-
-<p>​    变量的格式：</p>
-<p>​        方案一（两个步骤）</p>
-<p>​            1.创建一个变量，格式：                  <strong>数据类型 变量名称;</strong></p>
-<p>​            2.放入一些数据，格式：                  <strong>变量名称 = 数据值;</strong></p>
-<p>​        方案二（一个步骤）</p>
-<p>​            创建变量的同时立刻放入数据，格式：<strong>数据类型 变量名称 = 数据值;</strong></p>
-<h4 id="2-1-3Java标识符"><a href="#2-1-3Java标识符" class="headerlink" title="2.1.3Java标识符"></a>2.1.3Java标识符</h4><ul>
-<li><p>作用：给类、变量、包、方法等起名字。</p>
-</li>
-<li><p>组成规则（硬性规定）</p>
-<ol>
-<li><p>只能由字符、下划线（_）、美元符（$）组成。这里的字符包括大小写字母、中文字符、数字字符等，但符号只能有两个：下划线和美元符$；</p>
-</li>
-<li><p>不能以数字开头；</p>
-</li>
-<li><p>不能是Java中的关键字。</p>
-</li>
-</ol>
-</li>
-<li><p>命名规则（软性建议）</p>
-<ol>
-<li><p>基本要求：见名知意。</p>
-</li>
-<li><p>建议只使用英文字母和数字。</p>
-</li>
-<li><p>常见命名的规则：</p>
-<p> a)    类<br>  每个单词首字母大写，例如Student、HelloWorld。</p>
-<p> b)   变量<br>  第一个单词完全小写，后续更多单词首字母大写，例如age、ageOfMyGirlfriend。</p>
-<p> c)    方法<br>  与变量规则一样，例如show()、getAge()。</p>
-<p> d)   包（其实就是文件夹，用于对类进行管理）<br>  全部小写，多级包用点隔开。公司域名的反写。com.demo    （相当于两级文件夹：com\demo）</p>
-</li>
-</ol>
-</li>
-</ul>
-<p>​    不推荐使用无意义的单个字母命名标识符，应该使用有意义的单词或单词组合为对象命名。有两种命名方法：PascalCase和camelCase。</p>
-<p>​    PascalCase称为帕斯卡拼写法，即将命名的所有单词首字母大写，然后直接连接起来，单词之间没有连接符，如NumberOfStudent，BankAccount等。</p>
-<p>​    camelCase称为骆驼拼写法，它与PascalCase拼写法的不同之处是将第一个单词的首字母小写，如firstName，currentValue等。</p>
-<h4 id="2-1-4Java关键字"><a href="#2-1-4Java关键字" class="headerlink" title="2.1.4Java关键字"></a>2.1.4Java关键字</h4><ul>
-<li>概念：关键字是被Java语言赋予特殊含义，具有专门用途的单词。比如之前接触的class，public，static，void均为Java已经预设好的</li>
-</ul>
-<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220204171332.png" alt="image-20220204171302496"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220204171356.png" alt="image-20220204171312540"></p>
-<h3 id="2-2数据类型"><a href="#2-2数据类型" class="headerlink" title="2.2数据类型"></a>2.2数据类型</h3><h4 id="2-2-1数据类型概述"><a href="#2-2-1数据类型概述" class="headerlink" title="2.2.1数据类型概述"></a>2.2.1数据类型概述</h4><p>​    Java语言的数据类型可分为基本数据类型(primitive data type)和引用数据类型(refererce data type)，如图所示：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220204180119.png" alt="image-20220204180119479"></p>
-<h4 id="2-2-2字面值和常量"><a href="#2-2-2字面值和常量" class="headerlink" title="2.2.2字面值和常量"></a>2.2.2字面值和常量</h4><p>​    字面值是某种类型值的表示形式，如100是int类型的字面值。字面值有三种类型：基本类型的字面值、字符串字面值以及null字面值。</p>
-<p>​    常量是在程序运行过程中，其值不能被改变的量。常量实际上是由一个final关键字修饰的变量，一旦为其赋值，其值在程序运行中就不能被改变。常量可以在声明时赋值，也可以声明后赋值。不管哪种情况，一旦赋值便不允许修改。常量的命名应该全部大写并用下划线将此分隔开。</p>
-<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">final</span> <span class="keyword">int</span> SNO;</span><br><span class="line"><span class="keyword">final</span> <span class="keyword">int</span> MAX_ARRAY_SIZE = <span class="number">22</span>;</span><br><span class="line"><span class="keyword">final</span> <span class="keyword">double</span> PI = <span class="number">3.1415926</span>;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>技术干货</category>
-      </categories>
-      <tags>
-        <tag>Java</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Markdown基本语法</title>
-    <url>/2022/02/16/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95/</url>
+    <url>/2022/02/16/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%EF%BC%88%E5%B7%B2%E5%AE%8C%E6%88%90%EF%BC%89/</url>
     <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p> Markdown是一种纯文本标记语言，通过简单的标记语法来使普通文本内容具备有一定的格式。Markdown相对于Word这种文档编辑器而言有如下优点，从而被广泛使用：语法简单，让文档编写专注于内容本身；支持Markdown语法的编辑器非常多，而且可以跨操作系统；可以转换为Word/PDF格式；支持在线编辑器:CSDN、简书。<span id="more"></span></p>
 <h2 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h2><h3 id="1-1-标题创建"><a href="#1-1-标题创建" class="headerlink" title="1.1 标题创建"></a>1.1 标题创建</h3><p>要创建标题，请在单词或短语前面添加井号 (<code>#</code>) 。<code>#</code> 的数量代表了标题的级别。例如，添加三个 <code>#</code> 表示创建一个三级标题 (<code>&lt;h3&gt;</code>) (例如：<code>### My Header</code>#和标题之间需要空一个空格)。markdown一共支持六级标题。</p>
 <table>
@@ -708,7 +547,7 @@
 
 <p>渲染效果如下：</p>
 <p><a href="https://www.baidu.com/">https://www.baidu.com</a></p>
-<p><a href="mailto:&#x31;&#x30;&#x33;&#x36;&#54;&#x30;&#56;&#x36;&#x31;&#x35;&#x40;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;">&#x31;&#x30;&#x33;&#x36;&#54;&#x30;&#56;&#x36;&#x31;&#x35;&#x40;&#113;&#113;&#x2e;&#x63;&#x6f;&#109;</a></p>
+<p><a href="mailto:&#x31;&#x30;&#51;&#x36;&#54;&#48;&#56;&#54;&#x31;&#x35;&#x40;&#x71;&#x71;&#46;&#99;&#111;&#109;">&#x31;&#x30;&#51;&#x36;&#54;&#48;&#56;&#54;&#x31;&#x35;&#x40;&#x71;&#x71;&#46;&#99;&#111;&#109;</a></p>
 <h3 id="9-4-带格式化的链接"><a href="#9-4-带格式化的链接" class="headerlink" title="9.4 带格式化的链接"></a>9.4 带格式化的链接</h3><p>强调链接, 在链接语法前后增加星号。 要将链接表示为代码，请在方括号中添加反引号。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">I love supporting the **[百度](https://www.baidu.com)**.加粗强调链接</span><br><span class="line">This is the *[百度](https://www.baidu.com)*.斜体强调链接</span><br><span class="line">See the section on [`百度`](https://wwww.baidu.com).将连接表示为代码</span><br></pre></td></tr></table></figure>
 
@@ -880,8 +719,8 @@
   </entry>
   <entry>
     <title>考研复试及调剂攻略</title>
-    <url>/2022/02/15/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95%E5%8F%8A%E8%B0%83%E5%89%82%E6%94%BB%E7%95%A5/</url>
-    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>考研初试已经结束，但是考研这场仗还没打完，接下来，我们将走入复试的战场。考研复试并不是走过场，是有严格的淘汰比例的；考研复试并不是关系网，是有公开而透明的准则和条例的；考研复试并不是高分比过，低分必刷，而是一个奇迹和机会的创造者。如果你放弃了复试，就等于放弃了你自己。本篇文章详细的介绍了复试的准备及学习过程，希望可以助你一臂之力，相信你终将成硕。<span id="more"></span></p>
+    <url>/2022/02/15/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95%E5%8F%8A%E8%B0%83%E5%89%82%E6%94%BB%E7%95%A5%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>考研初试已经结束，但是考研这场仗还没打完，接下来，我们将走入复试的战场。考研复试并不是走过场，是有严格的淘汰比例的；考研复试并不是关系网，是有公开而透明的准则和条例的；考研复试并不是高分必过，低分必刷，而是一个奇迹和机会的创造者。如果你放弃了复试，就等于放弃了你自己。本篇文章详细的介绍了复试的准备及学习过程，希望可以助你一臂之力，相信你终将成硕。<span id="more"></span></p>
 <h2 id="1-考研出分后准备工作"><a href="#1-考研出分后准备工作" class="headerlink" title="1.考研出分后准备工作"></a>1.考研出分后准备工作</h2><h3 id="1-1-分数线与排名"><a href="#1-1-分数线与排名" class="headerlink" title="1.1 分数线与排名"></a>1.1 分数线与排名</h3><p>​    1.参考近三年国家线，是否高分过线。</p>
 <p>​    2.查找往年录取分数线，确定往年最低录取分数，及其现分数段排名。</p>
 <p>​    3.联系院系老师/同专业考生，网络渠道了解排名。</p>
@@ -924,7 +763,7 @@
 <p>​    2.声音很大–每个人都能听得到。</p>
 <p>​    3.老师关注的不只是流利度，更重要的是你表达的内容。</p>
 <p>考研复试英语最常见的问题：</p>
-<p>​    1. what can you tell me about yourself ?</p>
+<p>​    1.<code> what can you tell me about yourself ?</code></p>
 <p>​        思维：quick in thought 思维敏捷</p>
 <p>​                    imaginative 有想象力</p>
 <p>​                    knowledgeable 见识广的</p>
@@ -935,7 +774,7 @@
 <p>​                    considerate 细心的</p>
 <p>​                    self-disciplined 自律的</p>
 <ol start="2">
-<li><p>why did you choose our university?</p>
+<li><p><code>why did you choose our university?</code></p>
 <p> 减分答题思路：本科学校不好、专业不喜欢、不是高考第一志愿、父母的意愿等等。</p>
 <p> 加分答题思路：学科优势、导师的学术影响、学校的学风、<strong>看到朋友在这里读书之后的改变</strong>。</p>
 <ul>
@@ -943,14 +782,44 @@
 <li>I also read a well-known article from Internet. It introduced and recommended our university in three parts: key subjects ,academic spirit and atmosphere of our university,and some brilliant teachers ,which exerts a great fascination to me.</li>
 <li>So I have a strong faith and desire to continue my post graduate study here,acquire further knowledge and to be a better self not only academically, but also comprehensively. The most important thing in the world,is now where are ,but which direction we are moving in.</li>
 </ul>
-<ol start="3">
-<li>Can you introduce your family?</li>
-</ol>
+</li>
+<li><p><code>Can you introduce your family?</code></p>
 <p> 关于家庭，不要讲家庭成员有几个，以及职业。</p>
 <p> [调整思路] 父母给你带来的影响</p>
 <p> ​    My family is warm and harmonious, my parents are both kind and hard-working. They teach me how to tell right from wrong and how to be independent and persistent. During my preparation for this interview , my parents’ support has always been the source of my power.</p>
+<p> 4.<code>What are your strengths and weakness?</code></p>
+<p> ​     When it comes to my strengths , I would like to describe it with three key words: patience, diligence, and endurance. I am  a patient man ,because I know good things take time, especially in academic paper or research work. Diligence is my constant belief. I never get up late and almost devote most of time to study, because I believe if a person is not born to be intelligent, at least you must make sure you are diligent. That is the key to your further study in the future. I also have a remarkable endurance. I can stand a long-time reading and researching work. Without a strong endurance, a student can not bear the solitude and boredom , therefore will not go further in the academic world.</p>
+<p> 缺点如实说，但有些缺点不能说。拖延症、懒惰、没有规划这些不能说，这是做学问的大忌。</p>
+<p> 可以说：事事追求完美，导致会在事情上花费太多时间。</p>
+<p> ​    In terms of my weakness, I am not good at relieving my pressure, which derives from my high requirements about myself. I allow no more leisure in my life, so sometimes I felt tied physically and mentally.</p>
+<p> ​    I am always too much absorbed in one thing. If I haven’t finished the current work, it is hard for me to pay attention to another thing.</p>
+<p> 5.<code>What has been your greatest accomplishment?</code></p>
+<p> 1)大赛获奖：I have won the championship in the xxx national competition.</p>
+<p> 2)发表论文：I have published a thesis named ____________ on the academic journal of SCI.</p>
+<p> 3)参与导师项目：I am lucky to be selected to attend the supervisor’s program in the research of  xx.</p>
+<p> 4)奖学金：国家奖学金—-National scholarship</p>
+<p> ​                   国家励志奖学金—-National Encouragement scholarship</p>
+<p> ​                    一等奖学金—-first-class/prize scholarship</p>
+<p> 5)学生干部：I was elected as Excellent Student leader in Student union.</p>
+<p> 6)志愿者：volunteer activities</p>
 </li>
 </ol>
+<h4 id="3-1-3-自我介绍的准备"><a href="#3-1-3-自我介绍的准备" class="headerlink" title="3.1.3 自我介绍的准备"></a>3.1.3 自我介绍的准备</h4><ul>
+<li>逐字稿写好</li>
+<li>反复修改（长度、逻辑、发音）</li>
+<li>掐时间练习（1-3分钟）</li>
+<li>音量和速度</li>
+</ul>
+<h5 id="3-1-3-1-自我介绍的内容"><a href="#3-1-3-1-自我介绍的内容" class="headerlink" title="3.1.3.1 自我介绍的内容"></a>3.1.3.1 自我介绍的内容</h5><p>1.自己的个人信息（名字、家乡、专业、家庭、学校）</p>
+<p>2.自己的学习、学术、专业能力</p>
+<p>3.自己的兴趣爱好</p>
+<p>4.自己的优点</p>
+<p>5.大学的比赛，实习，论文</p>
+<p>6.报考本校，本专业的原因</p>
+<p>My name is Liu Yating , in Chinese means elegant. Ting means pleasant . Apparently , to be an elegant lady is my parents’ expectation for me. I come from Hunan Province, which is located in southern part of China . I graduate from Hunan university，majoring in finance . I enjoy reading primarily because it can cultivate my critical thinking, diversify my knowledge and enrich my mind.</p>
+<p>Academically, my GPA is 3.8 which ranks second in the grade. I passed CET 6 at the score of 521, and I have won the First Level Scholarship Reward for 3 consecutive years. Under the instruction of my teacher, I published a paper at xxx Journal last year, which inspired the genuine academic passion in my heart.</p>
+<p>I remembered that in Professor Wu xx’s  lecture , I was exposed to many academic definitions, such as A and B, which gave me some inspiration to do my graduation paper . Another Professor Li xx’s paper enlightened me on some specific research in the past year , which inspired the genuine academic passion in my heart.</p>
+<p>I am a patient and diligent man , because I konw good things take time and I believe if a person is not born to be intelligent, at least you must make sure you are diligent, which is the key to your further study in the future. I also believe the significance of patience, without it , a student can not go further in the academic world.</p>
 <h3 id="3-2-着装part"><a href="#3-2-着装part" class="headerlink" title="3.2 着装part"></a>3.2 着装part</h3><p>​    不能涂指甲油</p>
 <p>​    首饰全部去掉</p>
 <p>​    打造淳朴清新没有太多物质欲望的形象</p>
@@ -975,7 +844,7 @@
 </tr>
 <tr>
 <td align="center">情况2</td>
-<td align="left">擦先</td>
+<td align="left">擦线</td>
 <td>复试+调剂（校内、A区、B区）</td>
 </tr>
 <tr>
@@ -1206,12 +1075,246 @@
 <figure class="highlight awk"><table><tr><td class="code"><pre><span class="line">尊敬的xxx老师<span class="regexp">/教授/</span>院士：</span><br><span class="line">您好，非常感谢您在百忙之中阅读我的邮件！</span><br><span class="line">	第一段进行自我介绍，并表明来行目的：我叫xxx（这句话进行自我介绍，包括专业、学校）。有幸通过阅读您的著作了解了您的研究方向，我对您的研究方向怀有浓厚的兴趣，于是冒昧的与您联系，希望能够报考您的研究生，在您的指导下完成研究生阶段的学习。</span><br><span class="line">	第二段用事实阐述科研潜力或能力：考研的成绩、本科期间的成绩、本科期间的科研项目或毕业论文或做的实验课题等。第一句介绍研究了什么问题（事情），第二句解释为什么这个问题很重要（原因意义，第三句介绍你用什么手段得到了什么样的结果（方式），第四句成果发表在了哪里，或者准备投稿在哪里，或者获得了什么奖励等（结果）。</span><br><span class="line">	第三段写你接下来的研究兴趣或方向或读研的规划：本科期间的科研训练，让我对xxx方向十分感兴趣。解释一下这个方向为什么很重要，为什么成为你接下来的读研计划。接下来奉承一下导师是这个领域的大牛，表达一下想加入导师的课题组或跟老师学习的愿望，最后说自己能够胜任这个方向理由。</span><br><span class="line">	第四段附上简历，并表达一下导师阅读来信的谢意与希望他给你一些复试指导：附件中是我的个人简历，请老师审阅，感谢老师在百忙之中阅读，希望老师能给我一个机会，我一定不会辜负您的期望！非常期待老师的回复！能否给一些复试建议、参考书。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <p>给导师发送的邮件按照：【姓名】+【主题】发送</p>
+<h3 id="5-2-复试流程与时间安排"><a href="#5-2-复试流程与时间安排" class="headerlink" title="5.2 复试流程与时间安排"></a>5.2 复试流程与时间安排</h3><p>（1）复试流程（确定自己已经进入某校复试后）：复试资格审查—-复试环节（笔试、面试、体检）</p>
+<p>*复试资格审查不同院校有不同的要求，请关注报考院校及院系研招网站发布的资格审查通知，携带相应的资料。一般包括内容如下：</p>
+<p>​    1.身份证明：初试准考证、本人有效身份证原件及复印件、毕业证书和学位证书（应届生带学生证）原件或复印件；</p>
+<p>​    2.政治审核表：档案单位一般应与报名时填报的工作或学习单位一致且须加盖公章，该表需要在院校官网下载；</p>
+<p>​    3.大学期间成绩单原件或档案中成绩复印件，须加盖档案单位公章，在复试时单独交至各学院，往届生建议准备本科毕业论文；</p>
+<p>​    4.部分院校需要缴纳复试费及带一寸彩色免冠照；</p>
+<p>​    5.证书及科研成果：四六级等相关证书，计算机等级证书、注册会计师证书以及科研项目、挑战杯、论文等；</p>
+<p>​    6.撰写材料包括面试简历（3-5份左右）。</p>
+<p>（2）复试时间：</p>
+<p>​    1.34所自主招生院校：3月中旬。</p>
+<p>​    2.其余院校：4月中上旬（国家线出分后开始自己划线）。</p>
+<p>（3）复试的一般录取标准：</p>
+<p>​    1.分数+排名：笔试成绩x权重+面试成绩x权重。</p>
+<p>​    2.淘汰法则：分数相近或相同，专业课优先，学科背景会酌情考虑。</p>
+<h3 id="5-3-如何确定自己可以进入复试？"><a href="#5-3-如何确定自己可以进入复试？" class="headerlink" title="5.3 如何确定自己可以进入复试？"></a>5.3 如何确定自己可以进入复试？</h3><p>（1）根据分数与排名：</p>
+<p>​    1、超过历年分数线10分以上，单科达线。</p>
+<p>​    2、排名在招生名额的150%（除去推免生）</p>
+<p>（2）一些特殊情况：</p>
+<p>​    第一、学院有总招生名额，各个具体专业指标会有浮动。一般这种院校会出一个复试名单。</p>
+<p>​    第二、总分和专业课分数特别高，公共课分数差在1~5分内，可以向学校院系研招办争取破格录取机会。（同时还需要导师+院系盖章，经过研招办同意）</p>
+<p>​    第三、擦先和排名靠后的同学需要做调剂和复试两手准备。</p>
+<p>​    第四、有些学校可能会让所有过线的人进入复试，虽然刷人较多，但是有了逆袭的可能。</p>
+<h3 id="5-4-复试材料准备"><a href="#5-4-复试材料准备" class="headerlink" title="5.4 复试材料准备"></a>5.4 复试材料准备</h3><p>1.一旦拿到复试资格应向学校提交的材料见上文。</p>
+<p>2.复试备考：</p>
+<p>​    （1）确定你将要复试的考察形式和内容；</p>
+<p>​            从形式上说：复试分为笔试、面试（群面为主），面试环节会有指定题和抽查题。</p>
+<p>​            从内容上说：政治：针对管理类联考综合，难度低，以简答和论述为主。</p>
+<p>​                                   英语：主要考察听说，一般在面试环节附带考察，主要考察口语表达连贯性。</p>
+<p>​                                   专业课：重中之重，笔试和面试都会重点考察。笔试以简单和论述为主，面试进一步分为选答题和必答题。部分                                                          理工科、医学和艺术类会有实践操作部分。</p>
+<p>​                                   综合素质：面试时综合表现。</p>
+<p>​    （2）收集复试参考书和复试“题库”    </p>
+<p>​        80%的招生单位并未指定复试复习参考书。但实际上复试是有题库的，且变化不大，建议通过实地考察，找学长学姐，百度，论            坛，QQ群，微博等方式获取，并进行模拟演练。</p>
+<p>​        找学科带头人的论文、目标导师的论文、看和慕课上的相关网课。可以打开word用电脑自己打一遍，你能获得观点、论文格            式、引用，重点句子还可以背诵，还可以获知专业必读书。</p>
+<p>3.面试</p>
+<p>（1）面试官到底在意什么？</p>
+<p>专业素养能力、学习态度、思维方式、人格</p>
+<p>（2）面试环节必问题及解决策略。</p>
+<p>【问题一】自我介绍（中英文）</p>
+<p>解决策略：介绍自己一定要自己写，突出亮点，逻辑清楚，反复斟酌表达。尽量不要超过三分钟，一定要包含以下四个方面：</p>
+<p>①本科学习概述（本科成绩、学习的核心科目、证书、奖学金）</p>
+<p>②科研（论文、挑战杯）和社会实践</p>
+<p>③对学校专业的向往和热爱</p>
+<p>【问题二】你觉得你上午笔试/表现如何？</p>
+<p>解决策略：不要快速给出结论，结合自己的经历如实给出感受。</p>
+<p>①从出题角度：是考察专业课的延申</p>
+<p>②从自己角度：不要快速给出结论，结合自己的经历如实给出感受。</p>
+<p>【问题三】为什么要报考/调剂我们学校/专业？</p>
+<p>解决策略：不能只有空洞的结论（我喜欢），不能很功利（有利于就业、只剩这个调剂了），要强调对学校/专业的了解和热爱。</p>
+<p>热爱一定是处于喜欢，可以从以下角度去说：</p>
+<p>​    1、地区（兴趣爱好）</p>
+<p>​    2、学校及专业（从官网和百度搜素相关信息，尽量强调）</p>
+<p>​    3、老师因素</p>
+<p>【问题四】读过哪些书（延伸至专业知识问题比如谈谈对某一观点的理解/根据具体的数提问）/做过哪些科研项目/论文？</p>
+<p>解决策略：诚实的讨巧。不能说没读过但不能骗人和夸张—-因为这个问题时很多具体专业问题的总开关，导师会根据你的问题来进                行延伸，一旦胡吹会容易无法收场。</p>
+<p>以下针对不同学科提一些建议：</p>
+<p>1、理工农医艺：请回忆学科/个人经典实践操作，细致到现场试验、实验步骤、实践结果等。</p>
+<p>2、文科类：一般考察对学术理论深度的理解。</p>
+<p>3、特殊科目：（英美文学、比较研究、翻译）一般考察英语</p>
+<p>4、管理社科新闻类：一般考察用专业知识评价社会热点和时政问题，尤其是近半年时政。</p>
+<p>技巧1：遇到不会的或者不太熟悉的问题怎么办？</p>
+<p>不要不懂装懂，但一定要用but原则转移到自己熟悉的专业知识上去。</p>
+<p>技巧2：如何快速获取专业知识信息？</p>
+<p>通过知网、院系官网、图书馆、报考院校的校刊和月报。获取学科带头人/目标导师的学术论文，专著，从参考文献的重复引用文献        中找到业内必读专著。</p>
+<p>【问题五】将来的打算（有没有读博的意愿）/研究方向/研究生期间有什么期待？</p>
+<p>解决策略：切忌过于功利，尽量不要牵扯就业而是跟学术研究、梦想理想相关，表达自己对院校和专业以及老师的向往即可。</p>
+<p>【问题六】毕业论文、课题（方向）、发表的文章（文笔）？</p>
+<p>解决策略：往届生要熟悉自己的毕业论文（课题）摘要和概述，应届生起码要有一个大概的方向。如果有发表文章最好，如果没有，        也不要说谎，可以表达自己将来的研究兴趣、方向、潜力。</p>
+<h2 id="6-邮件及简历模板"><a href="#6-邮件及简历模板" class="headerlink" title="6.邮件及简历模板"></a>6.邮件及简历模板</h2><h3 id="6-1-邮件"><a href="#6-1-邮件" class="headerlink" title="6.1 邮件"></a>6.1 邮件</h3><h4 id="6-1-一志愿邮件"><a href="#6-1-一志愿邮件" class="headerlink" title="6.1 一志愿邮件"></a>6.1 一志愿邮件</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">尊敬的X老师：</span><br><span class="line"></span><br><span class="line"><span class="code">	您好！我叫xxx，男，今年23岁，xxxx学院数据科学与大数据技术专业2018级本科生，今年报考的是西安理工大学计算机科学与工程学院计算机科学与技术专业学硕（081200），准考证号107002xxxxxxxxx，初试总成绩296分，其中，政治68分，英语一59分，数学一73分，专业课96分。参考去年的复试分数线，感觉有机会参加贵校的复试，有幸通过贵校的官方网站了解了您的研究方向，您研究的领域我非常感兴趣，我希望可以有机会攻读您的硕士研究生，在您的指导下完成研究生阶段的学习，所以非常冒昧的给您写信。</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">	本科期间，在学习方面，我成绩优异，曾两次获得国家励志奖学金、两次校级三等奖学金、一次特等奖学金，通过了英语六级；在技术方面，我自学了C语言，熟练使用Java、python进行web开发，熟悉Hadoop生态圈，能处理大数据相关业务；在比赛方面，我积极参加各类计算机比赛，获得了校级计算机编程大赛“瑞翼杯”优秀奖，两次参加全国大学生数学建模竞赛分别获得优秀奖和省级二等奖，获得计算机科技创新社组织的计算机基础知识竞赛优秀奖；在实习方面，我曾在xxx进行了为期一个月的专业实习，在实习期间完成了基于大数据基础的全国疫情地图的设计与实现，完成了相关课题的数据统计并撰写了相关的课程设计与实验报告。</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">	我在贵校网站上看了您的研究方向：图像处理，我对此领域非常感兴趣，通我非常期待研究生阶段能得到您的指导！作为一名准研究生，我有以下规划：研一期间，我希望能在您的指导下提高自主学习能力和专业领域图像处理方向的研究深度；研二期间，争取发表高质量的论文，积极参加研讨活动，促进理论与实践的结合；研三期间，做好自己的职业规划，明确就业方向，如果有机会的话，希望能在学术领域更进一层。</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">	冒昧致信，恳请海涵！非常感谢您能在百忙之中审阅此信件，真心希望能跟您继续深造，希望老师能给我一个机会，我一定不会辜负您的期望。最后，我将个人简历及相关资料附上，请您过目，期待您的回复。</span></span><br><span class="line"><span class="code"></span></span><br><span class="line">祝您身体健康，万事如意！</span><br><span class="line"></span><br><span class="line">此致</span><br><span class="line"></span><br><span class="line">敬礼</span><br><span class="line"></span><br><span class="line"><span class="code">																																														致信人：xxx																																																				时间：2022年 月 日</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="6-2-调剂邮件"><a href="#6-2-调剂邮件" class="headerlink" title="6.2  调剂邮件"></a>6.2  调剂邮件</h4><figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">尊敬的老师：</span><br><span class="line"><span class="code">	您好！冒昧致信，还望海涵。我叫xxx，男，今年23岁，xxxx学院数据科学与大数据技术专业毕业，第一志愿报考的是西安理工大学计算机科学与技术专业学硕（081200），初试总分296，政治68，英语59，数学73，专业课96，由于成绩没能达到该学校复试分数线，无法录取，但我又想继续深造，经网上查询调剂信息，得知贵校还有调剂名额，故申请贵校的调剂。</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">	本科期间，我综合表现优异，在学习方面，曾两次获得国家励志奖学金、两次校级三等奖学金、一次特等奖学金，通过了英语六级（521分）；在技术方面，我自学了C语言，熟练使用Java、python进行web开发，熟悉Hadoop生态圈，能处理大数据相关业务；在比赛方面，我积极参加各类计算机比赛，获得了校级计算机编程大赛“瑞翼杯”优秀奖，两次参加全国大学生数学建模竞赛分别获得优秀奖和省级二等奖，获得计算机科技创新社组织的计算机基础知识竞赛优秀奖；在实习方面，我曾在xxx进行了为期一个月的专业实习，在实习期间完成了基于大数据基础的全国疫情地图的设计与实现，完成了相关课题的数据统计并撰写了相关的课程设计与实验报告。</span></span><br><span class="line"><span class="code">	冒昧致信，恳请海涵！非常感谢您能在百忙之中阅读此信件，真心希望能跟您继续深造，最后，我将个人简历及相关资料附上，请您过目，期待您的回复。</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">	祝您身体健康，万事如意！</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">	此致</span></span><br><span class="line"><span class="code"></span></span><br><span class="line"><span class="code">	敬礼！</span></span><br><span class="line"><span class="code">																																															致信人：xxx</span></span><br></pre></td></tr></table></figure>
+
+<h4 id="6-3-简历模板"><a href="#6-3-简历模板" class="headerlink" title="6.3 简历模板"></a>6.3 简历模板</h4><p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220227105931.png" alt="image-20220227105924708"></p>
+<p>如需要简历模板请自取：<a href="https://pan.baidu.com/s/1obmE7qnpGf7AuFh7ErEgfw" title="提取码:7vk1">简历模板</a> 提取码7vk1</p>
 ]]></content>
       <categories>
         <category>实用指南</category>
       </categories>
       <tags>
         <tag>考研</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>2022年度规划</title>
+    <url>/2022/02/14/2022%E5%B9%B4%E5%BA%A6%E6%B8%85%E5%8D%95%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>生活没有目标，犹如航海没有罗盘，走到哪里算哪里，最终也是一事无成，有计划的完成，其实再远的方向也能到达。看过那么多达人的计划，决定制定下自己的计划清单。很喜欢出自非洲经济学家Dambisa Moyo的《dead aid》中的一句话：种一棵树最好的时间是十年前，其次是现在。“十年前，你是初生牛犊，一片赤子之心，一身冲劲，未来无限可能。如果那个时候小心翼翼的种下了一棵树，十年后树木挺拔，仿佛你旅途中的一个标志，已经成为疲惫旅人的你就可以时时回到树木生长的地方待上那么一会儿。唤回初心，驱散迷茫。可很多事十年之前懵懂不知其中之味，于是我们大多忘记给自己种下一棵树。十年后经历人世的无常，才懂那是宝藏。所以，种一棵树，最好的时间在十年前。”<span id="more"></span></p>
+<blockquote>
+<p><strong>Living without an aim is like sailing without a compass. 生活没有目标，犹如航海没有罗盘</strong></p>
+</blockquote>
+<h2 id="January"><a href="#January" class="headerlink" title="January"></a>January</h2><p>1.创建博客</p>
+<p>2.学习Java基础语法知识</p>
+<p>3.联系英语口语</p>
+<h2 id="February"><a href="#February" class="headerlink" title="February"></a>February</h2><p>1.准备考研复试</p>
+<p>2.看完黄灯的《我的二本学生》</p>
+]]></content>
+      <categories>
+        <category>年度清单</category>
+      </categories>
+      <tags>
+        <tag>年度规划</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Java学习笔记</title>
+    <url>/2022/01/26/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</url>
+    <content><![CDATA[<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p>Java是一门卓越的程序设计语言，同时，它也是基于Java语言、从移动应用开发到企业及开发的平台。随着Web的发展，应用Web成为大型应用开发的主流方式，Java凭借其“编写一次，到处运行”的良好特性很好的支持了互联网应用所要求的跨平台能力，成为服务器端开发的主流语言。现在人类已经进入互联网时代，而Java依然是当之无愧的主角。<span id="more"></span></p>
+<p>Java是一门经典的面向对象语言，同时也是一门优秀的教学语言。Java拥有优雅和简明的语法以及丰富的类库，让编程人员尽可能地将精力集中在业务领域的问题求解上。</p>
+<h1 id="第一章-Java语言概述"><a href="#第一章-Java语言概述" class="headerlink" title="第一章 Java语言概述"></a>第一章 Java语言概述</h1><h2 id="第一章知识点总览"><a href="#第一章知识点总览" class="headerlink" title="第一章知识点总览"></a>第一章知识点总览</h2><!--more-->
+
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220128211928.png" alt="Java第一章"></p>
+<h2 id="1-1-Java的起源与发展"><a href="#1-1-Java的起源与发展" class="headerlink" title="1.1 Java的起源与发展"></a>1.1 Java的起源与发展</h2><p>​    Java语言是目前十分流行的面向对象程序设计语言。它具有简单些、跨平台性、安全性、分布性等优点。Java语言不但确立了在网络编程和面向对象编程中的主导地位，而且在移动设备和企业应用开发中也有广泛应用。</p>
+<p>​    Java语言最初是由美国Sun Microsystems公司的James Gosling等人开发的一种面向对象的程序设计语言。Java的起源可以追溯到20世纪90年代初，Sun公司提出了一个Green项目，主要开发用于消费类电子产品的嵌入式芯片而设计的软件。Java之父James Gosling最初打算使用C++开发系统，但后来发现C++不能胜任这个工作，于是决定开发一种新的语言。他参考了SmallTalk和C++语言，设计了一个新的语言，该语言被称为Oak（橡树），这就是Java的前身。</p>
+<p>​    1993年7月，Sun公司决定把Oak作为产品推出，因此必须注册商标，结果Oak没能通过商标测试，公司必须为该语言取一个新的名字，于是将该语言取名为Java。</p>
+<p>​    Java语言于1995年5月23日正式发布。Java语言具有面向对象，平台独立、安全性以及可以开发一种称为Applet程序的特点，该语言的发布立即引起巨大轰动。</p>
+<h3 id="1-1-1Java语言的发展历程"><a href="#1-1-1Java语言的发展历程" class="headerlink" title="1.1.1Java语言的发展历程"></a>1.1.1Java语言的发展历程</h3><p>​    Java语言具有强大生命力，其原因之一是不断推出新版本。多年来，Java语言不断发展，演化和修订，一直站在计算机程序设计语言的前沿。从诞生以来，它已经做过多次或大或小的升级。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220202150310.png" alt="java发展历程"></p>
+<h3 id="1-1-2Java语言流行程度"><a href="#1-1-2Java语言流行程度" class="headerlink" title="1.1.2Java语言流行程度"></a>1.1.2Java语言流行程度</h3><p>​    TIOBE最新世界编程语言排行榜中前十种语言：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220201185752.png"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220201190002.png" alt="image-20220201190001834"></p>
+<h3 id="1-1-3Java语言的优点"><a href="#1-1-3Java语言的优点" class="headerlink" title="1.1.3Java语言的优点"></a>1.1.3Java语言的优点</h3><p>​    在java诞生时，世界上已经有上千种不同的编程语言，java语言之所以能存在和发展，并具有生命力，是因为它有着其它语言不同的优点。java是简单的（simple）、面向对象的（object oriented）、分布式的（distributed）、解释性的（interpred）、健壮的（robust）、安全的（secure）、体系结构中立的（architecture neutral）、可移植的（portable）、高性能的（high performance）、多线程的（miltithreaded）和动态的（dynamic）。</p>
+<h2 id="1-2Java平台与开发环境"><a href="#1-2Java平台与开发环境" class="headerlink" title="1.2Java平台与开发环境"></a>1.2Java平台与开发环境</h2><h3 id="1-2-1Java平台"><a href="#1-2-1Java平台" class="headerlink" title="1.2.1Java平台"></a>1.2.1Java平台</h3><p>​    Java标准版（Java Standard Edition，Java SE） ：用来开发客户端的应用程序，应用程序可以独立运行或作为Applet在Web浏览器中运行。</p>
+<p>​    Java企业版（Java Enterprise Edition，Java EE）：用来开发服务器端 的应用程序。例如：Java Servlet和JSP（JavaServer Pages），以及JSF（JavaServer Faces）。</p>
+<p>Java微型版（Java Micro Edition，Java ME）：用来开发移动设备（如手机）上运行的应用程序。</p>
+<h3 id="1-2-2JDK、JRE和JVM"><a href="#1-2-2JDK、JRE和JVM" class="headerlink" title="1.2.2JDK、JRE和JVM"></a>1.2.2JDK、JRE和JVM</h3><p>​    JDK（Java Development Kit，Java开发工具包）： 包含JRE以及开发工具，面向开发人员使用。（PS：开发用的）</p>
+<p>​    JRE（Java Runtime Environment，Java运行时环境）：包含JVM以及运行类库，面向运行人员使用。（PS：运行用的）</p>
+<p>​    JVM（Java Virtual Machine，Java虚拟机）：包含字节码等核心内容。（PS：核心所在）</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220201192312.png" alt="image-20220201192312055"></p>
+<h3 id="1-2-3资源下载"><a href="#1-2-3资源下载" class="headerlink" title="1.2.3资源下载"></a>1.2.3资源下载</h3><ul>
+<li>JDK的下载地址：<a href="http://www.oracle.com/technetwork/javase/downloads/index.html">http://www.oracle.com/technetwork/javase/downloads/index.html</a> </li>
+<li>Eclipse开发工具下载地址：<a href="http://www.eclipse.org/downloads/eclipse-packages/">http://www.eclipse.org/downloads/eclipse-packages/</a></li>
+<li>NetBeans开发工具下载地址：<a href="http://netbeans.org/downloads/">http://netbeans.org/downloads/</a></li>
+<li>Notepad++下载地址: <a href="https://notepad-plus-plus.org/">https://notepad-plus-plus.org/</a></li>
+</ul>
+<h2 id="1-3Java程序基本结构"><a href="#1-3Java程序基本结构" class="headerlink" title="1.3Java程序基本结构"></a>1.3Java程序基本结构</h2><h3 id="1-3-1Java程序开发步骤"><a href="#1-3-1Java程序开发步骤" class="headerlink" title="1.3.1Java程序开发步骤"></a>1.3.1Java程序开发步骤</h3><p>​    开发Java程序通常分三步：编辑源程序；编译源程序；执行或调试程序，得到程序输出的结果。</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220202161422.png" alt="image-20220202161422753"></p>
+<center>java程序的编辑、编译和执行过程</center>
+
+<h3 id="1-3-2第一个程序"><a href="#1-3-2第一个程序" class="headerlink" title="1.3.2第一个程序"></a>1.3.2第一个程序</h3><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span> </span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123;</span><br><span class="line">		System.out.println(<span class="string">&quot;Hello, World!&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h4 id="1-3-2-1第一个程序分析"><a href="#1-3-2-1第一个程序分析" class="headerlink" title="1.3.2.1第一个程序分析"></a>1.3.2.1第一个程序分析</h4><p>1.类定义</p>
+<p>​    Java程序的任何代码都必须放到一个类的定义中，本程序定义一个名为HelloWorld的类。public为类的访问修饰符，class为关键字，其后用一对大括号括起来，称为类体。</p>
+<p>2.main()方法</p>
+<p>​    Java应用程序的标志是类体中定义的一个main（）方法，称为主方法。主方法是程序执行的入口点，类似于C语言的main（）函数。main（）方法的格式如下：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">			……	</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​    public是方法的访问修饰符，static说明该方法为静态方法，void说明该方法的返回值为空。main（）方法必须带一个字符串数组参数String[] args，可以通过命令行向程序中传递参数。方法的定义也要括在一对大括号中，大阔号内可以书写合法的java语句。</p>
+<p>3.输出语句</p>
+<p>​    本程序main（）方法中只有一行语句：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.println(<span class="string">&quot;Hello,World!&quot;</span>);</span><br></pre></td></tr></table></figure>
+
+<p>​    该语句的功能是在标准的输出设备上打印输出一个字符串，字符串字面值用双引号定界。java语言的语句要以分号结束。</p>
+<p>System为系统类。out为该类中定义的静态成员，是标准的输出设备，通常指显示器。println（）是输出流out张总定义的方法，功能是打印输出字符串并换行。若不带参数，仅起到换行的作用。另一个常用的方法值print（），该方法输出后不换行。</p>
+<p>4.源程序命名</p>
+<p>​    在java语言中，一个源程序文件被称为一个编译单元。它是包含一个或多个类定义的文本文件。java编译器要求源程序文件必须以java为扩展名。当编译单元中有public类时，主文件必须与public类的类名相同（包括大小写），如本例的源程序文件名应该是HelloWorld.java若编译单元中没有public类，源程序的主文件名可以任意。</p>
+<h2 id="1-4程序文档风格和注释"><a href="#1-4程序文档风格和注释" class="headerlink" title="1.4程序文档风格和注释"></a>1.4程序文档风格和注释</h2><h3 id="1-4-1一致的缩进和空白"><a href="#1-4-1一致的缩进和空白" class="headerlink" title="1.4.1一致的缩进和空白"></a>1.4.1一致的缩进和空白</h3><p>​    保持一致的缩进和空白会是程序更加清晰、易读、易于调试和维护。缩进用于描述程序中各部分或语句之间的结构关系。java规范建议的缩进为4个字符。二元操作符的两边也应该各加一个空格，如下面语句所示：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">System.out.println(<span class="number">3</span>+<span class="number">4</span>*<span class="number">5</span>);  <span class="comment">//不好的风格</span></span><br><span class="line">System.out.println(<span class="number">3</span> + <span class="number">4</span> * <span class="number">5</span>);  <span class="comment">//好的风格</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="1-4-2块的风格"><a href="#1-4-2块的风格" class="headerlink" title="1.4.2块的风格"></a>1.4.2块的风格</h3><p>​    代码块是由大括号围起来的一组语句块，如类体、方法体、初始化块等。代码块的大括号有两种写法，一是行末格式，即左大括号写在上一行的末尾，右大括号写在下一行，另一种格式称为次行格式，即将左大括号单独写在下一行，右大括号与左大括号垂直对齐，如图所示</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span>		//次行格式</span></span><br><span class="line"><span class="class"></span>&#123;</span><br><span class="line">	<span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span></span><br><span class="line"><span class="function">	</span>&#123;</span><br><span class="line">		System.out.println(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">HelloWorld</span></span>&#123;		<span class="comment">//行末格式</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>​    这两种格式没有好坏之分，但java的文档规范推荐使用行末格式，这样使代码更紧凑，且占据较少空间。</p>
+<h3 id="1-4-3Java程序注释"><a href="#1-4-3Java程序注释" class="headerlink" title="1.4.3Java程序注释"></a>1.4.3Java程序注释</h3><p>​    java源程序支持三种类型注释：</p>
+<p>（1）单行注释，以双斜杠开头，在该行的末尾结束</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//这是一个单行注释，在Eclipse中快捷键ctrl+/(添加注释)</span></span><br></pre></td></tr></table></figure>
+
+<p>（2）多行注释，以<code>/*</code>开始，以<code>*/</code>结束的一行或多行文字</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">	这是一个多行注释，在Eclipse中快捷键为ctrl+shift+\(添加注释),ctrl+shift+/(取消注释)</span></span><br><span class="line"><span class="comment">*/</span></span><br></pre></td></tr></table></figure>
+
+<p>（3）文档注释，以<code>/**</code>开始，以<code>*/</code>结束的多行。文档注释是java特有的，主要用来生成类定义的API文档                                                                                       </p>
+<h1 id="第二章Java语言基础"><a href="#第二章Java语言基础" class="headerlink" title="第二章Java语言基础"></a>第二章Java语言基础</h1><h2 id="第二章知识点总览"><a href="#第二章知识点总览" class="headerlink" title="第二章知识点总览"></a>第二章知识点总览</h2><p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220202161326.png" alt="第二章知识点概览"></p>
+<h3 id="2-1简单程序的开发"><a href="#2-1简单程序的开发" class="headerlink" title="2.1简单程序的开发"></a>2.1简单程序的开发</h3><h4 id="2-1-1-从键盘读取数据"><a href="#2-1-1-从键盘读取数据" class="headerlink" title="2.1.1 从键盘读取数据"></a>2.1.1 从键盘读取数据</h4><p>​    要从键盘读取数据可以使用Scanner类的nextInt（）方法或nextDouble方法。首先创建Scanner类的一个实例，然后调用nextDouble（）方法读取double数据。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="comment">//ComputeArea.java</span></span><br><span class="line"><span class="keyword">import</span> java.util.Scanner;<span class="comment">//由于Scanner类存放在Java.util包中，因此程序使用import语句导入该类</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ComputeArea</span></span>&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span></span>&#123;</span><br><span class="line">        <span class="keyword">double</span> radius;</span><br><span class="line">        <span class="keyword">double</span> area;</span><br><span class="line">        Scanner input = <span class="keyword">new</span> Scanner(System.in);<span class="comment">//创建一个Scanner实例input</span></span><br><span class="line">        System.out.print(<span class="string">&quot;请输入半径值：&quot;</span>);</span><br><span class="line">        radius = input.nextDouble(); <span class="comment">//通过input实例读取一个double型数</span></span><br><span class="line">        area = Math.PI * radius * radius;</span><br><span class="line">        System.out.println(<span class="string">&quot;圆的面积为：&quot;</span> + area);   </span><br><span class="line">    &#125;    </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//程序运行结果如下：</span></span><br><span class="line">请输入半径值：<span class="number">10</span></span><br><span class="line">圆的面积为：<span class="number">314.1592653589793</span></span><br></pre></td></tr></table></figure>
+
+<p>​    使用Scanner类对象还可以从键盘上读取其他数据类型的数据，如nextInt（）读取一个整数，nextLine（）读取一行文本。</p>
+<h4 id="2-1-2变量与赋值"><a href="#2-1-2变量与赋值" class="headerlink" title="2.1.2变量与赋值"></a>2.1.2变量与赋值</h4><p>​    变量（variable）是在程序运行中气质可以改变的量。一个变量通常由三个要素组成，即数据类型、变量名和变量值。Java有两种类型的变量：基本类型的变量和引用类型的变量。基本类型的变量包括数值型（整数型和浮点型）、布尔型和字符型。引用类型的变量包括类、接口、枚举和数组等。</p>
+<p>​    变量在使用使用之前必须定义，变量定义包括声明和赋值。变量声明的一般格式为：</p>
+<center>type varName[=value][,valueName[=value]...];</center>
+
+<p>​    其中，type为变量数据类型，varName为变量名，value为变量值。下面声明了几个不同类型的变量：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">int</span> age;</span><br><span class="line"><span class="keyword">double</span> d1,d2;</span><br><span class="line"><span class="keyword">char</span> ch1,ch2;</span><br></pre></td></tr></table></figure>
+
+<p>​    使用赋值运算符“=”给变量赋值，一般称为变量的初始化。下面是几个赋值语句：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">age = <span class="number">21</span>;</span><br><span class="line">ch1 = <span class="string">&#x27;A&#x27;</span>;</span><br><span class="line">d1 = d2 = <span class="number">0.618</span>;  <span class="comment">//可以一次给多个变量赋值</span></span><br></pre></td></tr></table></figure>
+
+<p>​    也可以在声明时给变量赋值。例如：</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">boolean</span> = <span class="keyword">false</span>;</span><br></pre></td></tr></table></figure>
+
+<p>​    变量的格式：</p>
+<p>​        方案一（两个步骤）</p>
+<p>​            1.创建一个变量，格式：                  <strong>数据类型 变量名称;</strong></p>
+<p>​            2.放入一些数据，格式：                  <strong>变量名称 = 数据值;</strong></p>
+<p>​        方案二（一个步骤）</p>
+<p>​            创建变量的同时立刻放入数据，格式：<strong>数据类型 变量名称 = 数据值;</strong></p>
+<h4 id="2-1-3Java标识符"><a href="#2-1-3Java标识符" class="headerlink" title="2.1.3Java标识符"></a>2.1.3Java标识符</h4><ul>
+<li><p>作用：给类、变量、包、方法等起名字。</p>
+</li>
+<li><p>组成规则（硬性规定）</p>
+<ol>
+<li><p>只能由字符、下划线（_）、美元符（$）组成。这里的字符包括大小写字母、中文字符、数字字符等，但符号只能有两个：下划线和美元符$；</p>
+</li>
+<li><p>不能以数字开头；</p>
+</li>
+<li><p>不能是Java中的关键字。</p>
+</li>
+</ol>
+</li>
+<li><p>命名规则（软性建议）</p>
+<ol>
+<li><p>基本要求：见名知意。</p>
+</li>
+<li><p>建议只使用英文字母和数字。</p>
+</li>
+<li><p>常见命名的规则：</p>
+<p> a)    类<br>  每个单词首字母大写，例如Student、HelloWorld。</p>
+<p> b)   变量<br>  第一个单词完全小写，后续更多单词首字母大写，例如age、ageOfMyGirlfriend。</p>
+<p> c)    方法<br>  与变量规则一样，例如show()、getAge()。</p>
+<p> d)   包（其实就是文件夹，用于对类进行管理）<br>  全部小写，多级包用点隔开。公司域名的反写。com.demo    （相当于两级文件夹：com\demo）</p>
+</li>
+</ol>
+</li>
+</ul>
+<p>​    不推荐使用无意义的单个字母命名标识符，应该使用有意义的单词或单词组合为对象命名。有两种命名方法：PascalCase和camelCase。</p>
+<p>​    PascalCase称为帕斯卡拼写法，即将命名的所有单词首字母大写，然后直接连接起来，单词之间没有连接符，如NumberOfStudent，BankAccount等。</p>
+<p>​    camelCase称为骆驼拼写法，它与PascalCase拼写法的不同之处是将第一个单词的首字母小写，如firstName，currentValue等。</p>
+<h4 id="2-1-4Java关键字"><a href="#2-1-4Java关键字" class="headerlink" title="2.1.4Java关键字"></a>2.1.4Java关键字</h4><ul>
+<li>概念：关键字是被Java语言赋予特殊含义，具有专门用途的单词。比如之前接触的class，public，static，void均为Java已经预设好的</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220204171332.png" alt="image-20220204171302496"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220204171356.png" alt="image-20220204171312540"></p>
+<h3 id="2-2数据类型"><a href="#2-2数据类型" class="headerlink" title="2.2数据类型"></a>2.2数据类型</h3><h4 id="2-2-1数据类型概述"><a href="#2-2-1数据类型概述" class="headerlink" title="2.2.1数据类型概述"></a>2.2.1数据类型概述</h4><p>​    Java语言的数据类型可分为基本数据类型(primitive data type)和引用数据类型(refererce data type)，如图所示：</p>
+<p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220204180119.png" alt="image-20220204180119479"></p>
+<h4 id="2-2-2字面值和常量"><a href="#2-2-2字面值和常量" class="headerlink" title="2.2.2字面值和常量"></a>2.2.2字面值和常量</h4><p>​    字面值是某种类型值的表示形式，如100是int类型的字面值。字面值有三种类型：基本类型的字面值、字符串字面值以及null字面值。</p>
+<p>​    常量是在程序运行过程中，其值不能被改变的量。常量实际上是由一个final关键字修饰的变量，一旦为其赋值，其值在程序运行中就不能被改变。常量可以在声明时赋值，也可以声明后赋值。不管哪种情况，一旦赋值便不允许修改。常量的命名应该全部大写并用下划线将此分隔开。</p>
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">final</span> <span class="keyword">int</span> SNO;</span><br><span class="line"><span class="keyword">final</span> <span class="keyword">int</span> MAX_ARRAY_SIZE = <span class="number">22</span>;</span><br><span class="line"><span class="keyword">final</span> <span class="keyword">double</span> PI = <span class="number">3.1415926</span>;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>技术干货</category>
+      </categories>
+      <tags>
+        <tag>Java</tag>
       </tags>
   </entry>
 </search>
