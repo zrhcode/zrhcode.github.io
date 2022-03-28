@@ -6,7 +6,7 @@
   <link href="https://zrhcode.github.io/atom.xml" rel="self"/>
   
   <link href="https://zrhcode.github.io/"/>
-  <updated>2022-03-17T08:33:10.862Z</updated>
+  <updated>2022-03-19T13:19:20.289Z</updated>
   <id>https://zrhcode.github.io/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>数据结构面试常见问题</title>
-    <link href="https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/"/>
-    <id>https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/</id>
+    <link href="https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98(%E5%B7%B2%E5%AE%8C%E6%88%90)/"/>
+    <id>https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98(%E5%B7%B2%E5%AE%8C%E6%88%90)/</id>
     <published>2022-03-17T08:13:29.000Z</published>
-    <updated>2022-03-17T08:33:10.862Z</updated>
+    <updated>2022-03-19T13:19:20.289Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;preface&quot;&gt;&lt;a href=&quot;#preface&quot; class=&quot;headerlink&quot; title=&quot;preface&quot;&gt;&lt;/a&gt;preface&lt;/h1&gt;&lt;p&gt;数据结构作为计算机的一门基础学科，它在面试中占有很大的比重，本科阶段，我们也学过数据结构与算法，内容比较多，也比较难，尤其是图的应用以及各类查找和排序算法，这些也都是核心内容。数据结构在实际的应用中也比较多，因此，整理一些常见的笔试、面试的数据结构常考点非常有必要，本文将对数据结构常见面试问题进行整理，以便大家查阅。&lt;/p&gt;</summary>
@@ -37,13 +37,13 @@
   
   <entry>
     <title>计算机操作系统</title>
-    <link href="https://zrhcode.github.io/2022/03/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
-    <id>https://zrhcode.github.io/2022/03/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</id>
+    <link href="https://zrhcode.github.io/2022/03/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/"/>
+    <id>https://zrhcode.github.io/2022/03/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</id>
     <published>2022-03-05T13:36:33.000Z</published>
-    <updated>2022-03-08T13:38:45.964Z</updated>
+    <updated>2022-03-28T08:06:52.919Z</updated>
     
     
-    <summary type="html">&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h1&gt;&lt;p&gt;在信息化时代，软件是计算机系统的灵魂。&lt;/p&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h1&gt;&lt;p&gt;在信息化时代，软件是计算机系统的灵魂。而作为软件核心的操作系统，已与现代计算机系统密不可分、融为一体。计算机系统自上而下可大致分为4部分：硬件、操作系统、应用程序和用户。操作系统管理各种计算机硬件，为应用程序提供基础，并充当计算机硬件与用户之间的中介。在计算机中，操作系统是其最基本也是最为重要的基础性系统软件。从计算机用户的角度来说，计算机操作系统体现为其提供的各项服务；从程序员的角度来说，其主要是指用户登录的界面或者接口；如果从设计人员的角度来说，就是指各式各样模块和单元之间的联系。事实上，全新操作系统的设计和改良的关键工作就是对体系结构的设计，经过几十年以来的发展，计算机操作系统已经由一开始的简单控制循环体发展成为较为复杂的分布式操作系统，再加上计算机用户需求的愈发多样化，计算机操作系统已经成为既复杂而又庞大的计算机软件系统之一。&lt;/p&gt;</summary>
     
     
     
@@ -56,8 +56,8 @@
   
   <entry>
     <title>数据结构与算法</title>
-    <link href="https://zrhcode.github.io/2022/03/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
-    <id>https://zrhcode.github.io/2022/03/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/</id>
+    <link href="https://zrhcode.github.io/2022/03/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/"/>
+    <id>https://zrhcode.github.io/2022/03/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</id>
     <published>2022-03-05T13:35:58.000Z</published>
     <updated>2022-03-05T13:38:12.370Z</updated>
     
@@ -141,14 +141,14 @@
     <link href="https://zrhcode.github.io/2022/01/26/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/"/>
     <id>https://zrhcode.github.io/2022/01/26/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</id>
     <published>2022-01-26T11:54:12.000Z</published>
-    <updated>2022-02-16T10:12:07.146Z</updated>
+    <updated>2022-03-26T07:45:57.861Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h1&gt;&lt;p&gt;Java是一门卓越的程序设计语言，同时，它也是基于Java语言、从移动应用开发到企业及开发的平台。随着Web的发展，应用Web成为大型应用开发的主流方式，Java凭借其“编写一次，到处运行”的良好特性很好的支持了互联网应用所要求的跨平台能力，成为服务器端开发的主流语言。现在人类已经进入互联网时代，而Java依然是当之无愧的主角。</summary>
     
     
     
-    <category term="技术干货" scheme="https://zrhcode.github.io/categories/%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7/"/>
+    <category term="学习笔记" scheme="https://zrhcode.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
     <category term="Java" scheme="https://zrhcode.github.io/tags/Java/"/>

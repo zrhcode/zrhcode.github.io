@@ -26,7 +26,7 @@
   <meta name="description" content="preface数据结构作为计算机的一门基础学科，它在面试中占有很大的比重，本科阶段，我们也学过数据结构与算法，内容比较多，也比较难，尤其是图的应用以及各类查找和排序算法，这些也都是核心内容。数据结构在实际的应用中也比较多，因此，整理一些常见的笔试、面试的数据结构常考点非常有必要，本文将对数据结构常见面试问题进行整理，以便大家查阅。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="数据结构面试常见问题">
-<meta property="og:url" content="https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:url" content="https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98(%E5%B7%B2%E5%AE%8C%E6%88%90)/index.html">
 <meta property="og:site_name" content="新世界">
 <meta property="og:description" content="preface数据结构作为计算机的一门基础学科，它在面试中占有很大的比重，本科阶段，我们也学过数据结构与算法，内容比较多，也比较难，尤其是图的应用以及各类查找和排序算法，这些也都是核心内容。数据结构在实际的应用中也比较多，因此，整理一些常见的笔试、面试的数据结构常考点非常有必要，本文将对数据结构常见面试问题进行整理，以便大家查阅。">
 <meta property="og:locale" content="zh_CN">
@@ -39,13 +39,13 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220317143418.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220317151139.png">
 <meta property="article:published_time" content="2022-03-17T08:13:29.000Z">
-<meta property="article:modified_time" content="2022-03-17T08:33:10.862Z">
+<meta property="article:modified_time" content="2022-03-19T13:19:20.289Z">
 <meta property="article:author" content="Noah">
 <meta property="article:tag" content="数据结构">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220317160035.png">
 
-<link rel="canonical" href="https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/">
+<link rel="canonical" href="https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98(%E5%B7%B2%E5%AE%8C%E6%88%90)/">
 
 
 <script id="page-configurations">
@@ -217,7 +217,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98/">
+    <link itemprop="mainEntityOfPage" href="https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98(%E5%B7%B2%E5%AE%8C%E6%88%90)/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/%E5%86%B0%E5%A2%A9%E5%A2%A94%E5%8F%B7.gif">
@@ -240,10 +240,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2022-03-17 16:13:29 / 修改时间：16:33:10" itemprop="dateCreated datePublished" datetime="2022-03-17T16:13:29+08:00">2022-03-17</time>
+              <time title="创建时间：2022-03-17 16:13:29" itemprop="dateCreated datePublished" datetime="2022-03-17T16:13:29+08:00">2022-03-17</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-03-19 21:19:20" itemprop="dateModified" datetime="2022-03-19T21:19:20+08:00">2022-03-19</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -311,10 +317,10 @@
 <p>①存取（读取）方式</p>
 <p>​    顺序表可以顺序存取，也可以随机存取，链表只能从表头顺序存取元素。</p>
 <p>②逻辑结构与物理结构</p>
-<p>​    采用顺序存储时，逻辑上相邻的元素，对应的物理存储位置也相邻。而采用链式存储时，逻辑上相邻的元素，物理存储位置不一定            相邻，对应的逻辑关系是通过指针链接来实现的。</p>
+<p>​    采用顺序存储时，逻辑上相邻的元素，对应的物理存储位置也相邻。而采用链式存储时，逻辑上相邻的元素，物理存储位置不一定相邻，对应的逻辑关系是通过指针链接来实现的。</p>
 <p>③查找、插入和删除操作</p>
 <p>查找：对于按值查找，顺序表无序时，两者的时间复杂度均为O（n）；顺序表有序时，可采用折半查找，此时的时间复杂度为O                    (log2n)。对于按序号查找，顺序表支持随机访问，时间复杂度仅为O（1），而链表的平均时间复杂度为O（n）。</p>
-<p>插入、删除：顺序表的插入、删除操作，平均需要移动半个表长的元素；链表的插入、删除操作，只需要修改相应的结点指针域即                                可。由于链表的每个结点都带有指针域，故而存储密度不够大。</p>
+<p>插入、删除：顺序表的插入、删除操作，平均需要移动半个表长的元素；链表的插入、删除操作，只需要修改相应的结点指针域即                               可。由于链表的每个结点都带有指针域，故而存储密度不够大。</p>
 <p>④空间分配</p>
 <p>顺序存储在静态存储分配情形下，一旦存储空间装满就不能扩充，若再加入新的元素，则会出现内存溢出，因此需要预先分配足够大        的存储空间。预先分配过大，可能会导致顺序表后部大量闲置；预先分配过小，又会造成溢出。动态分配存储虽然存储空间可以扩        充，但需要移动大量元素，导致操作效率降低，而且若内存中没有更大块的连续存储空间，则会导致分配失败。</p>
 <p>链式存储的结点空间只在需要时申请分配，只要内存有空间就可以连续分配，操作灵活、高效。</p>
@@ -353,7 +359,7 @@
 <p><strong>3.如何构造哈夫曼树？哈夫曼编码的意义是什么？</strong></p>
 <p>构造哈夫曼树的算法描述如下：</p>
 <p>​            1）将n个结点分别看作n棵仅含一个结点的二叉树。</p>
-<p>​            2）在所有的根节点中选取两个根节点权值最小的数构造成新的二叉树，再将根节点与其他n-1个根节点进行比较，选出根节点                          权值最小的两棵树进行归并，重复上述步骤，直至所有结点都归并到一个书上为止。</p>
+<p>​            2）在所有的根节点中选取两个根节点权值最小的数构造成新的二叉树，再将根节点与其他n-1个根节点进行比较，选出根节点                          权值最小的两棵树进行归并，重复上述步骤，直至所有结点都归并到一个树上为止。</p>
 <p>哈夫曼编码的意义：</p>
 <p>​                将出现频率高的字符使用较短的编码，反之出现频率较低的则使用较长的编码，降低字符串的平均期望长度。频繁使用的机                        器指令操作使用较短的编码，这样会提高执行的效率。</p>
 <p><strong>4.什么是二叉树？什么是二叉排序树？</strong></p>
@@ -399,7 +405,7 @@
 <p>直接插入排序（稳定）：将未排序序列中的元素插入到前面已排序好的元素中，最好情况时间复杂度为O（n）,平均时间复杂度和最        坏情况为O(n^2)</p>
 <p>折半插入排序（稳定）：设置三个变量low high mid，令mid=(low+high)/2,若a[mid]&gt;key,则令high=mid-1,否则令low=mid+1,直到        low&gt;high时停止循环，对序列中的每个元素做以上处理，找到合适位置将其他元素后移进行插入。他的比较次数为O(nlog2n),但是因        为要后移，因此时间复杂度为O(n^2),空间复杂度为O(1)。 优点是：比较次数大大减少。</p>
 <p>冒泡排序（稳定）：从后往前或者从前往后两两比较相邻元素，若为逆序，则交换，直到序列比较完为止。优点是：每一趟不仅能找        到一个最大的元素放到序列后面，而且还把其他元素理顺，如果下一趟排序没有发生交换则可以提前结束排序。时间复杂度为O                 (n^2),空间复杂度为O（1）。</p>
-<p>归并排序（稳定）：把两个或者两个以上的有序表合并成一个新的有序表。时间复杂度为O（nlogn）,空间复杂度和待排序的元素个        数相同。</p>
+<p>归并排序（稳定）：把两个或者两个以上的有序表合并成一个新的有序表。时间复杂度为O（nlog2n）,空间复杂度和待排序的元素个        数相同。</p>
 <p>快速排序（不稳定）：在序列中任意选择一个元素作为枢轴元素，比它大的元素一律向后移动，比它小的元素一律向前移动，形成左        右两个子序列，再把子序列按上述操作进行调整，直到所有的子序列中都只有一个元素时序列即为有序。优点是：每一趟不仅能确定        一个元素，时间效率较高。时间复杂度为O(nlog2n),空间复杂度为O(log2n)</p>
 <p>希尔排序（不稳定）：先将序列分为若干个子序列，对各子序列进行直接插入排序，等到序列基本有序时再对整个序列进行一次直接        插入排序。优点是：让关键字值小的元素能够很快移动到前面，且序列基本有序时进行直接插入排序时间效率会提升很多，空间复杂        度为O（1），希尔排序仅适用于线性表为顺序存储的情况。</p>
 <p>简单选择排序（不稳定）：每经过一趟就在无序部分找到一个最小值然后与无序部分的第一个元素交换位置。优点是：实现起来特别        简单，缺点是：每一趟只能确定一个元素的位置，时间效率低。时间复杂度为O（n^2），空间复杂度为O（1）。</p>
@@ -489,7 +495,7 @@
 <p>优点：速度快，结构简单。</p>
 <p>缺点：并不能解决所有的问题。有的问题适合使用递归而不是循环。如果使用循环并不困难的话，最好使用循环。</p>
 <p><strong>4.概述一下大根堆的构造过程？并说说堆排序的适用场景。</strong></p>
-<p>对于第[n/2]个结点为根的子树进行筛选，使得它的根结点小于等于左右子树（小根堆反之），之后向前依次（[n/2]-1~1）为根的子树进行筛选，看该结点值是否大于其左右子树结点，若不大于，则将左右子结点中较大者与之交换，交换后可能会破坏下一级堆，于是继续采用上述方法构造下一级的堆，直到以该结点为根的子树构建成堆为止。</p>
+<p>对于第[n/2]个结点为根的子树进行筛选，使得它的根结点大于等于左右子树（小根堆反之），之后向前依次（[n/2]-1~1）为根的子树进行筛选，看该结点值是否大于其左右子树结点，若不大于，则将左右子结点中较大者与之交换，交换后可能会破坏下一级堆，于是继续采用上述方法构造下一级的堆，直到以该结点为根的子树构建成堆为止。</p>
 <p>堆排序适用于关键字较多的情况，比如在1亿个数中选出前100个最大值。</p>
 
     </div>
@@ -560,7 +566,7 @@
         
     <div class="post-nav">
       <div class="post-nav-item">
-    <a href="/2022/03/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" rel="prev" title="计算机操作系统">
+    <a href="/2022/03/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/" rel="prev" title="计算机操作系统">
       <i class="fa fa-chevron-left"></i> 计算机操作系统
     </a></div>
       <div class="post-nav-item"></div>
@@ -728,8 +734,8 @@
       <span class="post-meta-item-text">站点总字数：</span>
     
 	<span title="post.totalcount">
-     25.9k字 </span>
-    <!--<span title="站点总字数">44k</span>-->
+     30.7k字 </span>
+    <!--<span title="站点总字数">49k</span>-->
   
 
 
@@ -746,13 +752,13 @@
       <i class="fa fa-chart-area"></i>
     </span>
       <span class="post-meta-item-text">站点总字数：</span>
-    <span title="站点总字数">44k</span>
+    <span title="站点总字数">49k</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
       <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
-    <span title="站点阅读时长">40 分钟</span>
+    <span title="站点阅读时长">45 分钟</span>
 </div>
 <!--
 -->
