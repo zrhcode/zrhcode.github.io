@@ -6,11 +6,11 @@
   <link href="https://zrhcode.github.io/atom.xml" rel="self"/>
   
   <link href="https://zrhcode.github.io/"/>
-  <updated>2022-04-19T11:17:26.000Z</updated>
+  <updated>2022-12-22T10:23:19.680Z</updated>
   <id>https://zrhcode.github.io/</id>
   
   <author>
-    <name>Noah</name>
+    <name>Jason</name>
     
   </author>
   
@@ -21,16 +21,10 @@
     <link href="https://zrhcode.github.io/2022/07/14/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%8E%E9%9D%A2%E5%90%91%E8%BF%87%E7%A8%8B(%E5%B7%B2%E5%AE%8C%E6%88%90)/"/>
     <id>https://zrhcode.github.io/2022/07/14/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%8E%E9%9D%A2%E5%90%91%E8%BF%87%E7%A8%8B(%E5%B7%B2%E5%AE%8C%E6%88%90)/</id>
     <published>2022-07-14T07:22:24.247Z</published>
-    <updated>2022-04-19T11:17:26.000Z</updated>
+    <updated>2022-12-22T10:23:19.680Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;面向对象与面向过程&quot;&gt;&lt;a href=&quot;#面向对象与面向过程&quot; class=&quot;headerlink&quot; title=&quot;面向对象与面向过程&quot;&gt;&lt;/a&gt;面向对象与面向过程&lt;/h1&gt;&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot;</summary>
-        
-      
+    <summary type="html">&lt;h1 id=&quot;面向对象与面向过程&quot;&gt;&lt;a href=&quot;#面向对象与面向过程&quot; class=&quot;headerlink&quot; title=&quot;面向对象与面向过程&quot;&gt;&lt;/a&gt;面向对象与面向过程&lt;/h1&gt;&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h1&gt;&lt;p&gt;计算机诞生以来，为适应程序不断增长的复杂过程，程序设计方法论发生了巨大变化。例如，在计算机发展初期，程序设计是通过输入二进制机器指令来完成的。在程序仅限于几百条指令的情况下，这种方法是可接受的。随着程序规模的增长，人们发明了汇编语言，这样程序员就可以使用代表机器指令的符号表示法来处理大型的、复杂的程序。随着程序规模的继续增长，高级语言的引入为程序员提供了更多的工具，这些工具可以使他们能够处理更复杂的程序。</summary>
     
     
     
