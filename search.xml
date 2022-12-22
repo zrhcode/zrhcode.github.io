@@ -26,7 +26,7 @@
 <p>安装选项全部点默认就行，一路next。最后安装好了之后打开命令提示符</p>
 <p><code>win+R</code>,输入<code>node -v</code>和<code>npm -v</code>如果出现版本号，那么恭喜你，安装成功了！</p>
 <p><img src="https://cdn.jsdelivr.net/gh/zrhcode/CDN-jsDeliver@1.0/Hexo-Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B/image-20220124203355332.png" alt="img"></p>
-<h3 id="2-2注册Github账号"><a href="#2-2注册Github账号" class="headerlink" title="2.2注册Github账号"></a>2.2注册Github账号</h3><p><a href="https://github.com/">GitHub</a>,点此进行注册，注册完成后，右上角点击+号新建一个仓库<code>New repository</code>如下图所示<img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220125214727.png" alt="image-20220125201057391"></p>
+<h3 id="2-2注册Github账号"><a href="#2-2注册Github账号" class="headerlink" title="2.2注册Github账号"></a>2.2注册Github账号</h3><p><a href="https://github.com/">GitHub</a>,点此进行注册，注册完成后，右上角点击+号新建一个仓库<code>New repository</code>如下图所示<img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220125214717.png" alt="image-20220125201057391"></p>
 <h3 id="2-3安装Git"><a href="#2-3安装Git" class="headerlink" title="2.3安装Git"></a>2.3安装Git</h3><p>百度搜索git官网下载，这里附上链接<a href="https://git-scm.com/download">Git</a>，安装时还是选择默认，最后一步添加路径时选择<code>Use Git from the Windows Command Prompt</code>，安装完成后在命令提示符输入<code>git --version</code>来看看你是否安装成功！找到你的Git安装路径<code>D:\ProgramFiles\Git</code>打开<code>git-bash.exe</code>，打开git的控制台窗口，以后我们所有的操作都在git控制台进行.</p>
 <p><img src="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220125214727.png" alt="image-20220124205135721"></p>
 <p>打开Git Bash，设置user.name和user.email配置信息：</p>
