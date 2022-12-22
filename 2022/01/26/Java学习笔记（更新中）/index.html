@@ -41,7 +41,7 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220204171356.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/zrhcode/Pictures/Img/20220204180119.png">
 <meta property="article:published_time" content="2022-01-26T11:54:12.000Z">
-<meta property="article:modified_time" content="2022-03-26T07:45:57.861Z">
+<meta property="article:modified_time" content="2022-05-24T12:46:12.000Z">
 <meta property="article:author" content="Noah">
 <meta property="article:tag" content="Java">
 <meta name="twitter:card" content="summary">
@@ -100,6 +100,7 @@
   </style>
 </noscript>
 
+<link rel="alternate" href="/atom.xml" title="新世界" type="application/atom+xml">
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage">
@@ -160,7 +161,7 @@
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">8</span></a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档<span class="badge">9</span></a>
 
   </li>
       <li class="menu-item menu-item-search">
@@ -249,7 +250,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-03-26 15:45:57" itemprop="dateModified" datetime="2022-03-26T15:45:57+08:00">2022-03-26</time>
+                <time title="修改时间：2022-05-24 20:46:12" itemprop="dateModified" datetime="2022-05-24T20:46:12+08:00">2022-05-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -268,6 +269,20 @@
               </span>
               <span class="post-meta-item-text">热度：</span>
               <span id="busuanzi_value_page_pv"></span>
+            </span><br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-file-word"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>7.1k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
             </span>
 
         </div>
@@ -294,7 +309,7 @@
 <h3 id="1-1-3Java语言的优点"><a href="#1-1-3Java语言的优点" class="headerlink" title="1.1.3Java语言的优点"></a>1.1.3Java语言的优点</h3><p>​    在java诞生时，世界上已经有上千种不同的编程语言，java语言之所以能存在和发展，并具有生命力，是因为它有着其它语言不同的优点。java是简单的（simple）、面向对象的（object oriented）、分布式的（distributed）、解释性的（interpred）、健壮的（robust）、安全的（secure）、体系结构中立的（architecture neutral）、可移植的（portable）、高性能的（high performance）、多线程的（miltithreaded）和动态的（dynamic）。</p>
 <h2 id="1-2Java平台与开发环境"><a href="#1-2Java平台与开发环境" class="headerlink" title="1.2Java平台与开发环境"></a>1.2Java平台与开发环境</h2><h3 id="1-2-1Java平台"><a href="#1-2-1Java平台" class="headerlink" title="1.2.1Java平台"></a>1.2.1Java平台</h3><p>​    Java标准版（Java Standard Edition，Java SE） ：用来开发客户端的应用程序，应用程序可以独立运行或作为Applet在Web浏览器中运行。</p>
 <p>​    Java企业版（Java Enterprise Edition，Java EE）：用来开发服务器端 的应用程序。例如：Java Servlet和JSP（JavaServer Pages），以及JSF（JavaServer Faces）。</p>
-<p>Java微型版（Java Micro Edition，Java ME）：用来开发移动设备（如手机）上运行的应用程序。</p>
+<p>​    Java微型版（Java Micro Edition，Java ME）：用来开发移动设备（如手机）上运行的应用程序。</p>
 <h3 id="1-2-2JDK、JRE和JVM"><a href="#1-2-2JDK、JRE和JVM" class="headerlink" title="1.2.2JDK、JRE和JVM"></a>1.2.2JDK、JRE和JVM</h3><p>​    JDK（Java Development Kit，Java开发工具包）： 包含JRE以及开发工具，面向开发人员使用。（PS：开发用的）</p>
 <p>​    JRE（Java Runtime Environment，Java运行时环境）：包含JVM以及运行类库，面向运行人员使用。（PS：运行用的）</p>
 <p>​    JVM（Java Virtual Machine，Java虚拟机）：包含字节码等核心内容。（PS：核心所在）</p>
@@ -387,7 +402,7 @@
 <li><p>常见命名的规则：</p>
 <p> a)    类<br>  每个单词首字母大写，例如Student、HelloWorld。</p>
 <p> b)   变量<br>  第一个单词完全小写，后续更多单词首字母大写，例如age、ageOfMyGirlfriend。</p>
-<p> c)    方法<br>  与变量规则一样，例如show()、getAge()。</p>
+<p> c)    方法<br>  与变量规则一样，第一个单词首字母小写，其他单词首字母大写，例如show()、getAge()。</p>
 <p> d)   包（其实就是文件夹，用于对类进行管理）<br>  全部小写，多级包用点隔开。公司域名的反写。com.demo    （相当于两级文件夹：com\demo）</p>
 </li>
 </ol>
@@ -407,7 +422,65 @@
 <p>​    常量是在程序运行过程中，其值不能被改变的量。常量实际上是由一个final关键字修饰的变量，一旦为其赋值，其值在程序运行中就不能被改变。常量可以在声明时赋值，也可以声明后赋值。不管哪种情况，一旦赋值便不允许修改。常量的命名应该全部大写并用下划线将此分隔开。</p>
 <figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">final</span> <span class="keyword">int</span> SNO;</span><br><span class="line"><span class="keyword">final</span> <span class="keyword">int</span> MAX_ARRAY_SIZE = <span class="number">22</span>;</span><br><span class="line"><span class="keyword">final</span> <span class="keyword">double</span> PI = <span class="number">3.1415926</span>;</span><br></pre></td></tr></table></figure>
 
+<h4 id="2-2-3-整数类型"><a href="#2-2-3-整数类型" class="headerlink" title="2.2.3  整数类型"></a>2.2.3  整数类型</h4><p>Java语言提供了4种整数类型，分别是byte型（字节型）、short型（短整形）、int型（整型）、和long型（长整型）。这些整数类型都是有符号数，可以为正值或者负值。每种类型的整数在内存中的位数不同，因此能够表示的数的范围也不同。</p>
+<blockquote>
+<p>注意：不要把整数类型的宽度理解成实际机器的存储空间，一个byte型的数据可能使用32位存储。</p>
+</blockquote>
+<h4 id="2-2-4-浮点类型"><a href="#2-2-4-浮点类型" class="headerlink" title="2.2.4  浮点类型"></a>2.2.4  浮点类型</h4><p>浮点类型的数就是通常所说的实数。在Java中有两种浮点类型的数据：float和double型。这两种类型的数据在内存中所占的位数不同，flaot占32位，double占64位。因此，通常将float型称为单精度浮点型，将double型称为双精度浮点型。</p>
+<p>浮点型字面值有两种表示方法：①十进制小数如，0.256，256.0，.2345，45.等。②科学计数法如，265e6，54654e-2等，e之前必须有数字，e之后的指数必须为整数。</p>
+<blockquote>
+<p>如果一个数值字面值太长，读起来会比较困难。因此，从Java7开始，对数值型字面值的表示可以使用下划线（_）将一些数字进行分组，这可以增强代码的可读性。</p>
+<p>在数值字面值中使用下划线只是提高代码可读性，编译器将忽略所有的下划线。另外，下划线不能放在数值的最前面和最后面，也不能放在浮点数小数点的前后。</p>
+</blockquote>
+<h4 id="2-2-5-字符类型"><a href="#2-2-5-字符类型" class="headerlink" title="2.2.5 字符类型"></a>2.2.5 字符类型</h4><p>字符是程序中可以出现的任何单个符号。字符在计算机内部是由一组0和1的序列表示的。将字符转化为其二进制表示的过程称为编码。字符有多种不同的编码方法，编码方案定义了字符如何编码。字符型字面值用单引号将字符括起来，大多数可见的字符都可用这种方式表示，如‘a’，‘3’，‘我’等。对于不能用单引号直接括起来的符号，需要使用转义序列来表示。表示的方法是用反斜杠（\）表示转义，如‘\n’表示换行、’\t’表示水平制表符。常用的转义序列如表2-3所示。</p>
+<center>表2-3 常见的转义字符序列</center>
 
+<table>
+<thead>
+<tr>
+<th align="center">转义字符</th>
+<th align="center">说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">\‘</td>
+<td align="center">单引号字符</td>
+</tr>
+<tr>
+<td align="center">\“</td>
+<td align="center">双引号字符</td>
+</tr>
+<tr>
+<td align="center">\\</td>
+<td align="center">反斜杠字符</td>
+</tr>
+<tr>
+<td align="center">\f</td>
+<td align="center">换页</td>
+</tr>
+<tr>
+<td align="center">\b</td>
+<td align="center">退格</td>
+</tr>
+<tr>
+<td align="center">\r</td>
+<td align="center">回车</td>
+</tr>
+<tr>
+<td align="center">\n</td>
+<td align="center">换行</td>
+</tr>
+<tr>
+<td align="center">\t</td>
+<td align="center">水平制表符</td>
+</tr>
+</tbody></table>
+<h4 id="2-2-6-布尔类型"><a href="#2-2-6-布尔类型" class="headerlink" title="2.2.6 布尔类型"></a>2.2.6 布尔类型</h4><p>布尔类型数据用来表示逻辑真或逻辑假。布尔型常量很简单，只有两个值true和false，分别用来表示逻辑真和逻辑假。</p>
+<blockquote>
+<p>与C/C++语言不同，Java语言的布尔型数据不能与数值数据相互转换，即false和true不对应与0和非0的整数值。</p>
+</blockquote>
+<h4 id="2-2-7-字符串类型"><a href="#2-2-7-字符串类型" class="headerlink" title="2.2.7 字符串类型"></a>2.2.7 字符串类型</h4><p>字符串是字符序列，不属于基本数据类型，是一种引用数据类型。</p>
+<h3 id="2-3-运算符"><a href="#2-3-运算符" class="headerlink" title="2.3 运算符"></a>2.3 运算符</h3>
     </div>
 
     
@@ -541,7 +614,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Preface"><span class="nav-text">Preface</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-Java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0"><span class="nav-text">第一章 Java语言概述</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E8%A7%88"><span class="nav-text">第一章知识点总览</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-Java%E7%9A%84%E8%B5%B7%E6%BA%90%E4%B8%8E%E5%8F%91%E5%B1%95"><span class="nav-text">1.1 Java的起源与发展</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-1Java%E8%AF%AD%E8%A8%80%E7%9A%84%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B"><span class="nav-text">1.1.1Java语言的发展历程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-2Java%E8%AF%AD%E8%A8%80%E6%B5%81%E8%A1%8C%E7%A8%8B%E5%BA%A6"><span class="nav-text">1.1.2Java语言流行程度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-3Java%E8%AF%AD%E8%A8%80%E7%9A%84%E4%BC%98%E7%82%B9"><span class="nav-text">1.1.3Java语言的优点</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2Java%E5%B9%B3%E5%8F%B0%E4%B8%8E%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="nav-text">1.2Java平台与开发环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-1Java%E5%B9%B3%E5%8F%B0"><span class="nav-text">1.2.1Java平台</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-2JDK%E3%80%81JRE%E5%92%8CJVM"><span class="nav-text">1.2.2JDK、JRE和JVM</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD"><span class="nav-text">1.2.3资源下载</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-3Java%E7%A8%8B%E5%BA%8F%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84"><span class="nav-text">1.3Java程序基本结构</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-1Java%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E6%AD%A5%E9%AA%A4"><span class="nav-text">1.3.1Java程序开发步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-2%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F"><span class="nav-text">1.3.2第一个程序</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-3-2-1%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F%E5%88%86%E6%9E%90"><span class="nav-text">1.3.2.1第一个程序分析</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-4%E7%A8%8B%E5%BA%8F%E6%96%87%E6%A1%A3%E9%A3%8E%E6%A0%BC%E5%92%8C%E6%B3%A8%E9%87%8A"><span class="nav-text">1.4程序文档风格和注释</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-4-1%E4%B8%80%E8%87%B4%E7%9A%84%E7%BC%A9%E8%BF%9B%E5%92%8C%E7%A9%BA%E7%99%BD"><span class="nav-text">1.4.1一致的缩进和空白</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-4-2%E5%9D%97%E7%9A%84%E9%A3%8E%E6%A0%BC"><span class="nav-text">1.4.2块的风格</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-4-3Java%E7%A8%8B%E5%BA%8F%E6%B3%A8%E9%87%8A"><span class="nav-text">1.4.3Java程序注释</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0Java%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80"><span class="nav-text">第二章Java语言基础</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E8%A7%88"><span class="nav-text">第二章知识点总览</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1%E7%AE%80%E5%8D%95%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%BC%80%E5%8F%91"><span class="nav-text">2.1简单程序的开发</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-1-%E4%BB%8E%E9%94%AE%E7%9B%98%E8%AF%BB%E5%8F%96%E6%95%B0%E6%8D%AE"><span class="nav-text">2.1.1 从键盘读取数据</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-2%E5%8F%98%E9%87%8F%E4%B8%8E%E8%B5%8B%E5%80%BC"><span class="nav-text">2.1.2变量与赋值</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-3Java%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="nav-text">2.1.3Java标识符</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-4Java%E5%85%B3%E9%94%AE%E5%AD%97"><span class="nav-text">2.1.4Java关键字</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-text">2.2数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-1%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E6%A6%82%E8%BF%B0"><span class="nav-text">2.2.1数据类型概述</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-2%E5%AD%97%E9%9D%A2%E5%80%BC%E5%92%8C%E5%B8%B8%E9%87%8F"><span class="nav-text">2.2.2字面值和常量</span></a></li></ol></li></ol></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Preface"><span class="nav-text">Preface</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-Java%E8%AF%AD%E8%A8%80%E6%A6%82%E8%BF%B0"><span class="nav-text">第一章 Java语言概述</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E8%A7%88"><span class="nav-text">第一章知识点总览</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-1-Java%E7%9A%84%E8%B5%B7%E6%BA%90%E4%B8%8E%E5%8F%91%E5%B1%95"><span class="nav-text">1.1 Java的起源与发展</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-1Java%E8%AF%AD%E8%A8%80%E7%9A%84%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B"><span class="nav-text">1.1.1Java语言的发展历程</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-2Java%E8%AF%AD%E8%A8%80%E6%B5%81%E8%A1%8C%E7%A8%8B%E5%BA%A6"><span class="nav-text">1.1.2Java语言流行程度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-1-3Java%E8%AF%AD%E8%A8%80%E7%9A%84%E4%BC%98%E7%82%B9"><span class="nav-text">1.1.3Java语言的优点</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-2Java%E5%B9%B3%E5%8F%B0%E4%B8%8E%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83"><span class="nav-text">1.2Java平台与开发环境</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-1Java%E5%B9%B3%E5%8F%B0"><span class="nav-text">1.2.1Java平台</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-2JDK%E3%80%81JRE%E5%92%8CJVM"><span class="nav-text">1.2.2JDK、JRE和JVM</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-2-3%E8%B5%84%E6%BA%90%E4%B8%8B%E8%BD%BD"><span class="nav-text">1.2.3资源下载</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-3Java%E7%A8%8B%E5%BA%8F%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84"><span class="nav-text">1.3Java程序基本结构</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-1Java%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E6%AD%A5%E9%AA%A4"><span class="nav-text">1.3.1Java程序开发步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-3-2%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F"><span class="nav-text">1.3.2第一个程序</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-3-2-1%E7%AC%AC%E4%B8%80%E4%B8%AA%E7%A8%8B%E5%BA%8F%E5%88%86%E6%9E%90"><span class="nav-text">1.3.2.1第一个程序分析</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#1-4%E7%A8%8B%E5%BA%8F%E6%96%87%E6%A1%A3%E9%A3%8E%E6%A0%BC%E5%92%8C%E6%B3%A8%E9%87%8A"><span class="nav-text">1.4程序文档风格和注释</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-4-1%E4%B8%80%E8%87%B4%E7%9A%84%E7%BC%A9%E8%BF%9B%E5%92%8C%E7%A9%BA%E7%99%BD"><span class="nav-text">1.4.1一致的缩进和空白</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-4-2%E5%9D%97%E7%9A%84%E9%A3%8E%E6%A0%BC"><span class="nav-text">1.4.2块的风格</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#1-4-3Java%E7%A8%8B%E5%BA%8F%E6%B3%A8%E9%87%8A"><span class="nav-text">1.4.3Java程序注释</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0Java%E8%AF%AD%E8%A8%80%E5%9F%BA%E7%A1%80"><span class="nav-text">第二章Java语言基础</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E8%A7%88"><span class="nav-text">第二章知识点总览</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2-1%E7%AE%80%E5%8D%95%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%BC%80%E5%8F%91"><span class="nav-text">2.1简单程序的开发</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-1-%E4%BB%8E%E9%94%AE%E7%9B%98%E8%AF%BB%E5%8F%96%E6%95%B0%E6%8D%AE"><span class="nav-text">2.1.1 从键盘读取数据</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-2%E5%8F%98%E9%87%8F%E4%B8%8E%E8%B5%8B%E5%80%BC"><span class="nav-text">2.1.2变量与赋值</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-3Java%E6%A0%87%E8%AF%86%E7%AC%A6"><span class="nav-text">2.1.3Java标识符</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-1-4Java%E5%85%B3%E9%94%AE%E5%AD%97"><span class="nav-text">2.1.4Java关键字</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-2%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B"><span class="nav-text">2.2数据类型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-1%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%E6%A6%82%E8%BF%B0"><span class="nav-text">2.2.1数据类型概述</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-2%E5%AD%97%E9%9D%A2%E5%80%BC%E5%92%8C%E5%B8%B8%E9%87%8F"><span class="nav-text">2.2.2字面值和常量</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-3-%E6%95%B4%E6%95%B0%E7%B1%BB%E5%9E%8B"><span class="nav-text">2.2.3  整数类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-4-%E6%B5%AE%E7%82%B9%E7%B1%BB%E5%9E%8B"><span class="nav-text">2.2.4  浮点类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-5-%E5%AD%97%E7%AC%A6%E7%B1%BB%E5%9E%8B"><span class="nav-text">2.2.5 字符类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-6-%E5%B8%83%E5%B0%94%E7%B1%BB%E5%9E%8B"><span class="nav-text">2.2.6 布尔类型</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-2-7-%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%B1%BB%E5%9E%8B"><span class="nav-text">2.2.7 字符串类型</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-3-%E8%BF%90%E7%AE%97%E7%AC%A6"><span class="nav-text">2.3 运算符</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -557,7 +630,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">8</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -639,6 +712,17 @@
 
 <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+      <span class="post-meta-item-text">站点总字数：</span>
+    
+	<span title="post.totalcount">
+     36.8k字 </span>
+    <!--<span title="站点总字数">57k</span>-->
+  
 
 
 <div class="copyright">
@@ -649,6 +733,18 @@
     <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Noah</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-area"></i>
+    </span>
+      <span class="post-meta-item-text">站点总字数：</span>
+    <span title="站点总字数">57k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">站点阅读时长 &asymp;</span>
+    <span title="站点阅读时长">51 分钟</span>
 </div>
 <!--
 -->

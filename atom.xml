@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>新世界</title>
+  
+  <subtitle>记录生活的点点滴滴</subtitle>
+  <link href="https://zrhcode.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://zrhcode.github.io/"/>
+  <updated>2022-04-19T11:17:26.000Z</updated>
+  <id>https://zrhcode.github.io/</id>
+  
+  <author>
+    <name>Noah</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="https://zrhcode.github.io/2022/07/14/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%8E%E9%9D%A2%E5%90%91%E8%BF%87%E7%A8%8B(%E5%B7%B2%E5%AE%8C%E6%88%90)/"/>
+    <id>https://zrhcode.github.io/2022/07/14/%E9%9D%A2%E5%90%91%E5%AF%B9%E8%B1%A1%E4%B8%8E%E9%9D%A2%E5%90%91%E8%BF%87%E7%A8%8B(%E5%B7%B2%E5%AE%8C%E6%88%90)/</id>
+    <published>2022-07-14T07:22:24.247Z</published>
+    <updated>2022-04-19T11:17:26.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;面向对象与面向过程&quot;&gt;&lt;a href=&quot;#面向对象与面向过程&quot; class=&quot;headerlink&quot; title=&quot;面向对象与面向过程&quot;&gt;&lt;/a&gt;面向对象与面向过程&lt;/h1&gt;&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构面试常见问题</title>
+    <link href="https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98(%E5%B7%B2%E5%AE%8C%E6%88%90)/"/>
+    <id>https://zrhcode.github.io/2022/03/17/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E9%9D%A2%E8%AF%95%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98(%E5%B7%B2%E5%AE%8C%E6%88%90)/</id>
+    <published>2022-03-17T08:13:29.000Z</published>
+    <updated>2022-03-19T13:19:22.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;preface&quot;&gt;&lt;a href=&quot;#preface&quot; class=&quot;headerlink&quot; title=&quot;preface&quot;&gt;&lt;/a&gt;preface&lt;/h1&gt;&lt;p&gt;数据结构作为计算机的一门基础学科，它在面试中占有很大的比重，本科阶段，我们也学过数据结构与算法，内容比较多，也比较难，尤其是图的应用以及各类查找和排序算法，这些也都是核心内容。数据结构在实际的应用中也比较多，因此，整理一些常见的笔试、面试的数据结构常考点非常有必要，本文将对数据结构常见面试问题进行整理，以便大家查阅。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="实用指南" scheme="https://zrhcode.github.io/categories/%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="数据结构" scheme="https://zrhcode.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>操作系统</title>
+    <link href="https://zrhcode.github.io/2022/03/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/"/>
+    <id>https://zrhcode.github.io/2022/03/05/%E8%AE%A1%E7%AE%97%E6%9C%BA%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</id>
+    <published>2022-03-05T13:36:33.000Z</published>
+    <updated>2022-04-05T07:07:36.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h1&gt;&lt;p&gt;在信息化时代，软件是计算机系统的灵魂。而作为软件核心的操作系统，已与现代计算机系统密不可分、融为一体。计算机系统自下而上可大致分为4部分：硬件、操作系统、应用程序和用户。操作系统管理各种计算机硬件，为应用程序提供基础，并充当计算机硬件与用户之间的中介。在计算机中，操作系统是其最基本也是最为重要的基础性系统软件。从计算机用户的角度来说，计算机操作系统体现为其提供的各项服务；从程序员的角度来说，其主要是指用户登录的界面或者接口；如果从设计人员的角度来说，就是指各式各样模块和单元之间的联系。事实上，全新操作系统的设计和改良的关键工作就是对体系结构的设计，经过几十年以来的发展，计算机操作系统已经由一开始的简单控制循环体发展成为较为复杂的分布式操作系统，再加上计算机用户需求的愈发多样化，计算机操作系统已经成为既复杂而又庞大的计算机软件系统之一。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://zrhcode.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="操作系统" scheme="https://zrhcode.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构与算法</title>
+    <link href="https://zrhcode.github.io/2022/03/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/"/>
+    <id>https://zrhcode.github.io/2022/03/05/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</id>
+    <published>2022-03-05T13:35:58.000Z</published>
+    <updated>2022-03-05T13:38:14.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://zrhcode.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="数据结构" scheme="https://zrhcode.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown基本语法</title>
+    <link href="https://zrhcode.github.io/2022/02/16/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%EF%BC%88%E5%B7%B2%E5%AE%8C%E6%88%90%EF%BC%89/"/>
+    <id>https://zrhcode.github.io/2022/02/16/Markdown%E5%9F%BA%E6%9C%AC%E8%AF%AD%E6%B3%95%EF%BC%88%E5%B7%B2%E5%AE%8C%E6%88%90%EF%BC%89/</id>
+    <published>2022-02-15T16:00:00.000Z</published>
+    <updated>2022-02-16T09:52:46.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h1&gt;&lt;p&gt; Markdown是一种纯文本标记语言，通过简单的标记语法来使普通文本内容具备有一定的格式。Markdown相对于Word这种文档编辑器而言有如下优点，从而被广泛使用：语法简单，让文档编写专注于内容本身；支持Markdown语法的编辑器非常多，而且可以跨操作系统；可以转换为Word/PDF格式；支持在线编辑器:CSDN、简书。</summary>
+    
+    
+    
+    <category term="实用指南" scheme="https://zrhcode.github.io/categories/%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="Markdown" scheme="https://zrhcode.github.io/tags/Markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>考研复试及调剂攻略</title>
+    <link href="https://zrhcode.github.io/2022/02/15/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95%E5%8F%8A%E8%B0%83%E5%89%82%E6%94%BB%E7%95%A5%EF%BC%88%E5%B7%B2%E5%AE%8C%E6%88%90%EF%BC%89/"/>
+    <id>https://zrhcode.github.io/2022/02/15/%E8%80%83%E7%A0%94%E5%A4%8D%E8%AF%95%E5%8F%8A%E8%B0%83%E5%89%82%E6%94%BB%E7%95%A5%EF%BC%88%E5%B7%B2%E5%AE%8C%E6%88%90%EF%BC%89/</id>
+    <published>2022-02-15T11:06:28.000Z</published>
+    <updated>2022-03-05T12:07:38.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h1&gt;&lt;p&gt;考研初试已经结束，但是考研这场仗还没打完，接下来，我们将走入复试的战场。考研复试并不是走过场，是有严格的淘汰比例的；考研复试并不是关系网，是有公开而透明的准则和条例的；考研复试并不是高分必过，低分必刷，而是一个奇迹和机会的创造者。如果你放弃了复试，就等于放弃了你自己。本篇文章详细的介绍了复试的准备及学习过程，希望可以助你一臂之力，相信你终将成硕。</summary>
+    
+    
+    
+    <category term="实用指南" scheme="https://zrhcode.github.io/categories/%E5%AE%9E%E7%94%A8%E6%8C%87%E5%8D%97/"/>
+    
+    
+    <category term="考研" scheme="https://zrhcode.github.io/tags/%E8%80%83%E7%A0%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2022年度规划</title>
+    <link href="https://zrhcode.github.io/2022/02/14/2022%E5%B9%B4%E5%BA%A6%E6%B8%85%E5%8D%95%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/"/>
+    <id>https://zrhcode.github.io/2022/02/14/2022%E5%B9%B4%E5%BA%A6%E6%B8%85%E5%8D%95%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</id>
+    <published>2022-02-14T06:36:46.000Z</published>
+    <updated>2022-04-02T09:01:28.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h1&gt;&lt;p&gt;生活没有目标，犹如航海没有罗盘，走到哪里算哪里，最终也是一事无成，有计划的完成，其实再远的方向也能到达。看过那么多达人的计划，决定制定下自己的计划清单。很喜欢出自非洲经济学家Dambisa Moyo的《dead aid》中的一句话：种一棵树最好的时间是十年前，其次是现在。“十年前，你是初生牛犊，一片赤子之心，一身冲劲，未来无限可能。如果那个时候小心翼翼的种下了一棵树，十年后树木挺拔，仿佛你旅途中的一个标志，已经成为疲惫旅人的你就可以时时回到树木生长的地方待上那么一会儿。唤回初心，驱散迷茫。可很多事十年之前懵懂不知其中之味，于是我们大多忘记给自己种下一棵树。十年后经历人世的无常，才懂那是宝藏。所以，种一棵树，最好的时间在十年前。”</summary>
+    
+    
+    
+    <category term="年度清单" scheme="https://zrhcode.github.io/categories/%E5%B9%B4%E5%BA%A6%E6%B8%85%E5%8D%95/"/>
+    
+    
+    <category term="年度规划" scheme="https://zrhcode.github.io/tags/%E5%B9%B4%E5%BA%A6%E8%A7%84%E5%88%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Java学习笔记</title>
+    <link href="https://zrhcode.github.io/2022/01/26/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/"/>
+    <id>https://zrhcode.github.io/2022/01/26/Java%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%88%E6%9B%B4%E6%96%B0%E4%B8%AD%EF%BC%89/</id>
+    <published>2022-01-26T11:54:12.000Z</published>
+    <updated>2022-05-24T12:46:12.000Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h1&gt;&lt;p&gt;Java是一门卓越的程序设计语言，同时，它也是基于Java语言、从移动应用开发到企业及开发的平台。随着Web的发展，应用Web成为大型应用开发的主流方式，Java凭借其“编写一次，到处运行”的良好特性很好的支持了互联网应用所要求的跨平台能力，成为服务器端开发的主流语言。现在人类已经进入互联网时代，而Java依然是当之无愧的主角。</summary>
+    
+    
+    
+    <category term="学习笔记" scheme="https://zrhcode.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="Java" scheme="https://zrhcode.github.io/tags/Java/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建教程</title>
+    <link href="https://zrhcode.github.io/2022/01/24/Hexo+Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B%EF%BC%88%E5%B7%B2%E5%AE%8C%E6%88%90%EF%BC%89/"/>
+    <id>https://zrhcode.github.io/2022/01/24/Hexo+Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B%EF%BC%88%E5%B7%B2%E5%AE%8C%E6%88%90%EF%BC%89/</id>
+    <published>2022-01-24T11:01:33.000Z</published>
+    <updated>2022-02-16T11:14:46.000Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Preface&quot;&gt;&lt;a href=&quot;#Preface&quot; class=&quot;headerlink&quot; title=&quot;Preface&quot;&gt;&lt;/a&gt;Preface&lt;/h2&gt;&lt;p&gt;  搭建这个博客的目的是想把自己学习的笔记、读书的笔记等等存到云端，相当于一个笔记本的作用，当然了，搭建博客的过程也可以让给我学到很多东西。我想很多小伙伴也想搭建一个属于自己的博客吧，那我就在此稍稍总结一下具体的搭建过程，更多的个性化设置还需要你自己去摸索。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="技术干货" scheme="https://zrhcode.github.io/categories/%E6%8A%80%E6%9C%AF%E5%B9%B2%E8%B4%A7/"/>
+    
+    
+    <category term="Hexo" scheme="https://zrhcode.github.io/tags/Hexo/"/>
+    
+    <category term="博客搭建" scheme="https://zrhcode.github.io/tags/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+</feed>
